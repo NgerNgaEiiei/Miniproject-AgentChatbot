@@ -1,6 +1,7 @@
 import re
-from agent.decision import check_prerequisite
-from llm.llm_helper import classify_intent, explain_result
+from agent.decision import check_prerequisite, count_courses
+from llm.llm_helper import classify_intent, explain_result, chat_freely, explain_curriculum
+
 
 completed_courses = ["CS101"]
 
@@ -20,6 +21,8 @@ while True:
         break
 
     intent = classify_intent(user_input)
+    print("DEBUG INTENT:", intent)
+
 
     if intent == "check_prerequisite":
 
@@ -30,13 +33,17 @@ while True:
             continue
 
         ok, missing = check_prerequisite(course_id, completed_courses)
+        response = explain_result(course_id, ok, missing)
 
-        if ok:
-            result = f"คุณสามารถลงทะเบียนวิชา {course_id} ได้"
-        else:
-            result = f"คุณยังไม่สามารถลงทะเบียนวิชา {course_id} ได้\nขาด prerequisite: {missing}"
+        print("Agent:", response)
+    
+    elif intent == "ask_curriculum_overview":
+        total = count_courses()
+        response = explain_curriculum(total)
+        print("Agent:", response)
 
-        print("Agent:", explain_result(result))
+
 
     else:
-        print("Agent: ขออภัย ยังไม่เข้าใจคำถามนี้")
+        response = chat_freely(user_input)
+        print("Agent:", response)

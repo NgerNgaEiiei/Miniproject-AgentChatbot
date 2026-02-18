@@ -20,3 +20,8 @@ def check_prerequisite(course_id, completed_courses):
         return False, missing
 
     return True, []
+
+def count_courses():
+    courses = load_courses()
+    return len(courses)
+
