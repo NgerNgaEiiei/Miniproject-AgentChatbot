@@ -16,6 +16,8 @@ Mini Agent-based Academic Advisor สำหรับหลักสูตร Com
 
 ระบบใช้แนวคิด **LLM as a decision maker + deterministic tools for execution**
 
+LLM ที่ใช้ ThaiLLM Playground -> https://playground.thaillm.or.th/
+
 ---
 
 ## 🧠 Architecture
@@ -74,7 +76,6 @@ User
 - `course_id` — รหัสวิชา  
 - `course_name` — ชื่อวิชา  
 - `prerequisites` — รายการวิชาที่ต้องเรียนก่อน
-- 
 ---
 
 ## 🚀 How to Run
