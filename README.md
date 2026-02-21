@@ -45,6 +45,37 @@ User
 
 ---
 
+## 🎓 Base Knowledge (JSON)
+```JSON
+{
+  "courses": [
+    {
+      "course_id": "CS101",
+      "course_name": "Intro to CS",
+      "prerequisites": []
+    },
+    {
+      "course_id": "CS201",
+      "course_name": "Data Structures",
+      "prerequisites": ["CS101"]
+    },
+    {
+      "course_id": "CS301",
+      "course_name": "Hello",
+      "prerequisites": ["CS201"]
+    }
+  ]
+}
+```
+
+### 📌 Explanation
+
+- `course_id` — รหัสวิชา  
+- `course_name` — ชื่อวิชา  
+- `prerequisites` — รายการวิชาที่ต้องเรียนก่อน
+- 
+---
+
 ## 🚀 How to Run
 
 1. เปิด Terminal
