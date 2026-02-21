@@ -19,7 +19,7 @@ Mini Agent-based Academic Advisor สำหรับหลักสูตร Com
 ---
 
 ## 🧠 Architecture
-
+```bash
 User  
 ↓  
 LLM → decide action  
@@ -28,7 +28,8 @@ Tool execution (Python functions)
 ↓  
 LLM → generate response  
 ↓  
-User  
+User
+```  
 
 ---
 
