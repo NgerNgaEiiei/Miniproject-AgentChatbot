@@ -84,6 +84,7 @@ User
 2.  สร้าง virtual environment
 ```bash
 python -m venv venv
+.\venv\Scripts\Activate
 ```
 
 3. ติดตั้ง dependencies
