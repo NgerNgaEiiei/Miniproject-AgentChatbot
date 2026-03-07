@@ -1,19 +1,19 @@
 {
   "courses": [
     {
-      "course_id": "CS101",
-      "course_name": "Intro to CS",
+      "course_id": "CS102",
+      "course_name": "Problem Solving Basics and Computer Programming",
       "prerequisites": []
     },
     {
-      "course_id": "CS201",
-      "course_name": "Data Structures",
-      "prerequisites": ["CS101"]
+      "course_id": "CS111",
+      "course_name": "Object-Oriented Concepts",
+      "prerequisites": ["CS102"]
     },
     {
-      "course_id": "CS301",
-      "course_name": "Hello",
-      "prerequisites": ["CS201"]
+      "course_id": "CS216",
+      "course_name": "Data Structures and Algorithms",
+      "prerequisites": ["CS111"]
     }
   ]
 }
