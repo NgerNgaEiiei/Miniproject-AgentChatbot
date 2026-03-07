@@ -1,7 +1,14 @@
 # 🎓 Mini CS Advisor Agent
 
-Mini Agent-based Academic Advisor สำหรับหลักสูตร Computer Science เบื้องต้น
-พัฒนาเพื่อทดลองแนวคิด LLM + Tool-Using Agent
+Mini Agent-based Academic Advisor สำหรับหลักสูตร Computer Science
+พัฒนาเพื่อทดลองแนวคิด LLM Agent + Tool Execution + Retrieval Augmented Generation (RAG)
+
+ระบบสามารถตอบคำถามเกี่ยวกับหลักสูตร เช่น
+- รายละเอียดรายวิชา
+- จำนวนวิชา
+- การตรวจสอบ prerequisite
+- ข้อมูลจากเอกสารหลักสูตร
+- โดยใช้ LLM เป็นตัวตัดสินใจ (decision maker) และ tools / database เป็นแหล่งข้อมูลจริง
 
 ---
 
@@ -10,17 +17,22 @@ Mini Agent-based Academic Advisor สำหรับหลักสูตร Com
 โปรเจกต์นี้เป็นการพัฒนา Agent ที่สามารถ:
 
 - วิเคราะห์คำถามผู้ใช้ด้วย LLM
-- เลือกใช้ tool ที่เหมาะสม 
+- ตัดสินใจเลือกใช้ Tool ที่เหมาะสม
 - ดึงข้อมูลจากฐานข้อมูลรายวิชา (JSON)
+- ค้นข้อมูลจากเอกสารหลักสูตรด้วย RAG (Vector Search)
 - สร้างคำตอบอธิบายผลลัพธ์ให้เข้าใจง่าย
 
-ระบบใช้แนวคิด **LLM as a decision maker + deterministic tools for execution**
+แนวคิดหลักของระบบคือ
+```bash
+LLM = reasoning + decision
+Tools / RAG = trusted knowledge source
+``` 
 
-LLM ที่ใช้ ThaiLLM Playground -> https://playground.thaillm.or.th/
+LLM ที่ใช้ ThaiLLM Playground 👉 https://playground.thaillm.or.th/
 
 ---
 
-## 🧠 Architecture
+## 🧠 Architecture เดิม
 ```bash
 User  
 ↓  
@@ -30,6 +42,22 @@ Tool execution (Python functions)
 ↓  
 LLM → generate response  
 ↓  
+User
+```
+## 🧠 Architecture + RAG
+```bash
+User
+ ↓
+LLM → decide action
+ ↓
+Tool execution (Python functions)
+ ↓
+RAG search (Vector DB)
+ ↓
+Context combination
+ ↓
+LLM → generate response
+ ↓
 User
 ```  
 
@@ -47,6 +75,54 @@ User
    → ตรวจสอบว่าสามารถลงทะเบียนเรียนได้หรือไม่
 
 ---
+
+## 📚 RAG Knowledge Source
+นอกจาก tools แล้ว ระบบยังสามารถค้นข้อมูลจาก
+```bash
+เอกสารหลักสูตร (PDF)
+```
+โดยใช้เทคนิค
+```bash
+Retrieval Augmented Generation (RAG)
+```
+Pipeline
+```bash
+PDF
+ ↓
+Text Chunking
+ ↓
+Embedding
+ ↓
+Vector Database (Qdrant)
+ ↓
+Semantic Search
+ ↓
+Context for LLM
+```
+
+Vector model ที่ใช้
+```bash
+sentence-transformers
+all-MiniLM-L6-v2
+```
+
+Vector dimension 
+```bash
+384
+```
+
+Vector dimension คือ จำนวนตัวเลขที่ใช้แทนความหมายของข้อความใน embedding vector (ข้อความ → แปลงเป็น list ของตัวเลข)
+จำนวนตัวเลขนั้นเรียกว่า dimension
+ตัวอย่าง
+สมมติเรามีคำว่า
+```bash
+"cat"
+```
+model อาจแปลงเป็น vector แบบนี้
+```bash
+[0.12, -0.33, 0.91]
+```
+มี 3 ตัวเลข ดังนั้น dimension = 3
 
 ## 🎓 Base Knowledge (JSON)
 ```JSON
