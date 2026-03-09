@@ -38,7 +38,7 @@ User
 ↓  
 LLM → decide action  
 ↓  
-Tool execution (Python functions)  
+Tool execution (Python functions เขียนเอง)  
 ↓  
 LLM → generate response  
 ↓  
