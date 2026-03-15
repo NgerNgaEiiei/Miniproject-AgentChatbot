@@ -1,8 +1,7 @@
 #import pdfplumber # อ่านไฟล์ PDF ดึงข้อความออกมา
 import fitz 
 import re
-from docx import Document
-from langchain_text_splitters import RecursiveCharacterTextSplitter # แบ่งข้อความยาว → เป็น chunk เล็ก ๆ
+# from langchain_text_splitters import RecursiveCharacterTextSplitter # แบ่งข้อความยาว → เป็น chunk เล็ก ๆ
 from sentence_transformers import SentenceTransformer # แปลง text → vector (embedding)
 from qdrant_client import QdrantClient # เชื่อมต่อกับ Qdrant Vector Database
 from qdrant_client.models import VectorParams, Distance, PointStruct # ใช้กำหนดโครงสร้างของ vector database
@@ -20,17 +19,26 @@ def load_pdf(path):
 
     return text 
 
+def split_by_course(text):
+    pattern = r'(?=\d+\.\s+[^\d])'          # pattern จับบรรทัดที่ขึ้นต้นด้วยตัวเลขตาม . เช่น 1. 2. 3.
+    parts = re.split(pattern, text)
 
-def split_text(text): # หาเพิ่ม
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=600,     # แต่ละ chunk 500 ตัวอักษร
-        chunk_overlap=50,   # chunk จะทับกัน 100 ตัวอักษร
-        separators=["\n\d+\.", "\n", " ", ""],
-    )
-
-    chunks = splitter.split_text(text)
+    chunks = [p.strip() for p in parts if p.strip()] # กรองส่วนที่ว่างออก
 
     return chunks
+
+def extract_metadata(chunk):
+    th_code = re.findall(r'คพ\s*\.\s*\d+', chunk)
+    en_code = re.findall(r'CS\d+', chunk)
+    en_name = re.findall(r'CS\d+\s+([A-Za-z][A-Za-z\s\-]+)\)', chunk)
+    th_name = re.findall(r'คพ\s*\.\s*\d+\s+([\u0E00-\u0E7F][^\(]+)', chunk)
+
+    return {
+        "th_code": th_code[0] if th_code else None,
+        "en_code": en_code[0] if en_code else None,
+        "en_name": en_name[0].strip() if en_name else None,
+        "th_name": th_name[0].strip() if th_name else None,
+    }
 
 
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") # Model สำหรับทำ embedding
@@ -62,16 +70,18 @@ def store_vectors(chunks, embeddings):
     points = []     # สร้าง list ไว้เก็บข้อมูล
 
     for i, (chunk, emb) in enumerate(zip(chunks, embeddings)):
-        # ลองดึงรหัสวิชา เช่น คพ.xxx หรือ CSxxx ออกมาเป็น metadata
-        # course_code = re.findall(r'[คพCS]+\.?\s?\d+', chunk)
-        
+        metadata = extract_metadata(chunk)
         points.append(                      # เพิ่มข้อมูลลง list
             PointStruct(
                 id=i,                       # กำหนด id 0, 1, 2, 3,...
                 vector=emb,                 # vector ของ chunk นั้น
                 payload={
                     "text": chunk,
-                    # "course_codes": course_code
+                    "th_code": metadata["th_code"],
+                    "en_code": metadata["en_code"],
+                    "en_name": metadata["en_name"],
+                    "th_name": metadata["th_name"],
+                    "chunk_index": i,
                 }     
             )
         )
@@ -86,7 +96,7 @@ if __name__ == "__main__":
 
     text = load_pdf("data/coursesdetail.pdf")  # เรียก load_pdf() แปลงไฟล์ pdf เป็น text
     
-    chunks = split_text(text)               # แบ่ง text เป็น chunk
+    chunks = split_by_course(text)               # แบ่ง text เป็น chunk
 
     embeddings = create_embeddings(chunks)  # แปลง chunk text → vectors
 

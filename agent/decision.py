@@ -35,3 +35,22 @@ def check_prerequisite(course_id, completed_courses=None):
             }
 
     return {"error": "Course not found"}
+
+def get_learning_path(target_course_id):
+    path = []
+    current = target_course_id
+
+    while current:
+        found = False
+        for course in courses["courses"]:
+            if course["course_id"] == current:
+                path.insert(0, current)
+                prereqs = course.get("prerequisites", [])
+                current = prereqs[0] if prereqs else None
+                found = True
+                break
+
+        if not found:
+                break
+
+    return {"learning_path": path}
