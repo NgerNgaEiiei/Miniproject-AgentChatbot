@@ -1,8 +1,21 @@
 import requests
 import json
+import os
+
+# โหลด API_KEY จากไฟล์ .env ในโฟลเดอร์หลัก
+def get_api_key():
+    env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
+    if os.path.exists(env_path):
+        with open(env_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith("API_KEY"):
+                    return line.split("=", 1)[1].strip().strip("\"'")
+    return os.environ.get("API_KEY", "")
+
+API_KEY = get_api_key()
 
 API_URL = "http://thaillm.or.th/api/openthaigpt/v1/chat/completions"
-API_KEY = "hjcTjTVIklax0K1OUo7L0l6XTjuT0KbK"
 
 
 def call_llm(messages):
@@ -94,7 +107,7 @@ def generate_response(context, user_input):
         {
             "role": "system",   # กำหนดพฤติกรรมของ LLM
             "content": """คุณคือผู้ช่วยแนะแนวหลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยธรรมศาสตร์
-ตอบคำถามนักศึกษาโดยใช้ข้อมูลที่ให้มาเท่านั้น
+ตอบโดยใช้เฉพาะข้อมูลที่อยู่ใน "ข้อมูลจากระบบ" และ "ข้อมูลจากเอกสารหลักสูตร" เท่านั้น
 ห้ามเพิ่มข้อมูลที่ไม่มีในเอกสาร
 ถ้าคำถามไม่เกี่ยวกับวิชาเลย เช่น ทักทาย ให้ตอบทักทายกลับตามปกติ ไม่ต้องแสดงข้อมูลวิชา
 อธิบายสั้น กระชับ เข้าใจง่าย ห้ามใส่ <think>"""

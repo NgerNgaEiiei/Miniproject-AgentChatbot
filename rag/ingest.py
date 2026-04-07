@@ -20,18 +20,20 @@ def load_pdf(path):
     return text 
 
 def split_by_course(text):
-    pattern = r'(?=\d+\.\s+[^\d])'          # pattern จับบรรทัดที่ขึ้นต้นด้วยตัวเลขตาม . เช่น 1. 2. 3.
-    parts = re.split(pattern, text)
+    pattern = r'(?=\d+\.\s+[^\d])'                      # pattern จับบรรทัดที่ขึ้นต้นด้วยตัวเลขตาม เช่น 1. CS102
+    parts = re.split(pattern, text)                     # ตัดข้อความทุกตำแหน่งที่ pattern ตรงกัน
 
-    chunks = [p.strip() for p in parts if p.strip()] # กรองส่วนที่ว่างออก
+    chunks = [p.strip() for p in parts if p.strip()]    # .strip() → ตัด whitespace หัว-ท้ายของแต่ละชิ้น
 
     return chunks
 
-def extract_metadata(chunk):
-    th_code = re.findall(r'คพ\s*\.\s*\d+', chunk)
-    en_code = re.findall(r'CS\d+', chunk)
-    en_name = re.findall(r'CS\d+\s+([A-Za-z][A-Za-z\s\-]+)\)', chunk)
-    th_name = re.findall(r'คพ\s*\.\s*\d+\s+([\u0E00-\u0E7F][^\(]+)', chunk)
+def extract_metadata(chunk):  # ดึงข้อมูลเมตาดาต้าของรายวิชา จากข้อความ chunk
+
+    # re.findall ค้นหาทุกตำแหน่งที่ตรงกับ pattern แล้วคืนค่าเป็น list
+    th_code = re.findall(r'คพ\s*\.\s*\d+', chunk)                           # จับได้: คพ.101, คพ . 101, คพ.2101
+    en_code = re.findall(r'CS\d+', chunk)                                   # จับได้: CS101, CS2101
+    en_name = re.findall(r'CS\d+\s+([A-Za-z][A-Za-z\s\-]+)\)', chunk)       # จับได้: CS101 Introduction to Python) → ได้ "Introduction to Python"
+    th_name = re.findall(r'คพ\s*\.\s*\d+\s+([\u0E00-\u0E7F][^\(]+)', chunk) # จับได้: คพ.101 การเขียนโปรแกรม ( → ได้ "การเขียนโปรแกรม "
 
     return {
         "th_code": th_code[0] if th_code else None,

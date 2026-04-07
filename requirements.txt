@@ -4,3 +4,10 @@ langchain-text-splitters==0.2.0
 sentence-transformers==3.0.0
 qdrant-client==1.9.0
 requests==2.31.0
+
+# For test ragas
+datasets==4.8.4
+ragas==0.4.3
+langchain-ollama==0.2.0
+langchain-google-genai==1.0.0
+langchain-huggingface==0.2.0
