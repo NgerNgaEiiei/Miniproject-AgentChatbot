@@ -1,0 +1,862 @@
+[
+  {
+    "metadata": {
+      "th_code": "คพ.100",
+      "en_code": "CS 100",
+      "th_name": "การพัฒนาเว็บแอปพลิเคชันเบื้องต้น",
+      "en_name": "Basic Web Development"
+    },
+    "content": "แนวคิดพื้นฐานในการพัฒนาเว็บ สถาปัตยกรรมเว็บ เอชทีเอ็มแอลและซีเอสเอ สเบื้องต้น วงจรการพัฒนาด้วยกิท การโปรแกรมจาวาสคริปต์ ฟอร์มและการยืนยัน ความถูกต้อง ส่วนประกอบของเว็บที่สามารถตอบสนองได้ การนําเว็บขึ้นให้บริการ Basic concepts of web development, web architecture, HTML & CSS fundamentals, development cycle with Git, JavaScript programming, form & validation, responsive web components, web deployment.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.101",
+      "en_code": "CS 101",
+      "th_name": "โครงสร้างแบบไม่ต่อเนื่อง",
+      "en_name": "Discrete Structures"
+    },
+    "content": "ตรรกศาสตร์เบื้องต้นและการประยุกต์ใช้ในวงจรดิจิทัลพื้นฐาน วิธีการพิสูจน์ เซต ฟังก์ชัน ความสัมพันธ์ พีชคณิตบูลืน พื้นฐานการนับ และ กราฟ โดยเน้นการ ประยุกต์ใช้ในด้านวิทยาการคอมพิวเตอร์ Intensive introduction to discrete mathematics as applied in computer science: basic logic and its main application in digital logic, proof techniques, sets, functions, relations, Boolean algebra, basic of counting, and graphs.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.102",
+      "en_code": "CS 102",
+      "th_name": "พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์",
+      "en_name": "Problem Solving Basics and Computer Programming"
+    },
+    "content": "การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิง โครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.103",
+      "en_code": "CS 103",
+      "th_name": "การโปรแกรมคอมพิวเตอร์เบื้องต้น",
+      "en_name": "Introduction to Computer Programming"
+    },
+    "content": "การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิง โครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.104",
+      "en_code": "CS 104",
+      "th_name": "การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน",
+      "en_name": "Introduction to Computer Programming using Python"
+    },
+    "content": "พื้นฐานการแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ด้วยภาษาไพทอน การโปรแกรม เชิงโครงสร้าง ชนิดของข้อมูลพื้นฐาน โครงสร้างการควบคุม ฟังก์ชัน โครงสร้าง ข้อมูลพื้นฐาน ลิสต์ ทูเพิล vin ติกชันนารี เรนจ์ ไลบราลีภาษาไพทอนสําหรับการ ประมวลผลเชิงตัวเลข อาร์เรย์และแมทริกซ์ ไลบราลีภาษาไพทอน สําหรับแสดง ข้อมูล Basic computer programming and problem solving using Python. Structural design and Programming, basic data types. Control Structures. Functions, Python built-in data structures: lists, tuples, sets, dictionaries, and range, numerical processing library, arrays and matrix, library for data visualization.",
+    "sentence_count": 9
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.111",
+      "en_code": "CS 111",
+      "th_name": "แนวคิดเชิงวัตถุ",
+      "en_name": "Object-Oriented Concepts"
+    },
+    "content": "พัฒนาทักษะการวิเคราะห์และการแก้ปัญหาด้วยแนวคิดเชิงวัตถุ บูรณาการแนวคิด และแนวทางเชิงปฏิบัติที่ทันสมัยในวัฏจักรการพัฒนาซอฟต์แวร์ หลักการพื้นฐานใน การเขียนโปรแกรมเชิงวัตถุตามที่วิเคราะห์และออกแบบไว้ แนวทางในการทวนสอบ ความสอดคล้องระหว่างแบบและซอร์สโค้ด Developing of analytical and problem-solving skills through object- oriented paradigm. Integrating of conceptual and state-of-the-art practical approaches in software development life cycle (SDLC), object-oriented design techniques and tools, object-oriented programming based on the design, consistency verification between the design and source code.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.140",
+      "en_code": "CS 140",
+      "th_name": "การวิเคราะห์ข้อมูลเชิงสํารวจและแดชบอร์ดแบบไร้โค้ด",
+      "en_name": "No-Code Exploratory Data Analysis and Dashboard"
+    },
+    "content": "นิยามและกระบวนการวิเคราะห์ข้อมูลเชิงสํารวจ เครื่องมือสเปรดชีต ตารางข้อมูล และการวิเคราะห์ข้อมูลเมื่อตัวแปรต้นเปลี่ยนแปลงไป การสรุปผลข้อมูลในรูปแบบ ของตาราง การนําข้อมูลเข้า การแปลงและเตรียมข้อมูล การวิเคราะห์ข้อมูลแบบตัว แปรเดี่ยว การวิเคราะห์ข้อมูลแบบพหุตัวแปร สหสัมพันธ์และความเป็นสาเหตุ การ ออกแบบและสร้างแดชบอร์ด การผสานรวมข้อมูลจากหลายแหล่งข้อมูล กรณีศึกษา Exploratory Data Analysis (EDA) definition and process, spreadsheet tools, data types, data tables and what-if analysis, pivot table, data import, data transformation and preparation, univariate analysis, multivariate analysis, correlation and causation, dashboard design and implementation, data blending, case studies.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.180",
+      "en_code": "CS 180",
+      "th_name": "ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น",
+      "en_name": "Introduction to User Interface and User Experience"
+    },
+    "content": "ความสําคัญของการออกแบบส่วนต่อประสานกับผู้ใช้และประสบการณ์ผู้ใช้ต่อการ พัฒนาระบบที่ใช้งานได้ กระบวนการออกแบบที่เน้นผู้ใช้เป็นศูนย์กลาง เครื่องมือ การวัดและประเมินผล ส่วนประกอบการออกแบบส่วนต่อประสานกับผู้ใช้ แนะนํา ส่วนประกอบการออกแบบมาตรฐานและแนวปฏิบัติในการออกแบบเพื่อรองรับการ ออกแบบที่สามารถนํากลับมาใช้ใหม่ได้ผ่านระบบการออกแบบที่มีอยู่ ส่วนต่อ ประสานผู้ใช้และแนวทางประสบการณ์ผู้ใช้ Importance of user interface and user experience design to the development of usable systems, user-centered design process, tools, measurement and evaluation, user interface design components, introduce the standard design components and design best practices to support design reusability through existing design system, user interface and user experience guidelines.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.213",
+      "en_code": "CS 213",
+      "th_name": "โครงสร้างข้อมูล",
+      "en_name": "Data Structures"
+    },
+    "content": "การวิเคราะห์ขั้นตอนวิธีเบื้องต้น หลักนามธรรมข้อมูล โครงสร้างข้อมูลพื้นฐาน ได้แก่ ข้อมูลเชิงเส้น และข้อมูลแบบไม่เชิงเส้น การจัดสรรหน่วยเก็บแบบพลวัต เทคนิคการ ค้นหา และการเรียงลําดับข้อมูลในหน่วยความจํา การฝึกปฏิบัตินอกเวลา Introduction to algorithm analysis, data abstraction, and fundamental data structures including linear data structures and nonlinear data structures, dynamic storage allocation, searching and sorting techniques.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.216",
+      "en_code": "CS 216",
+      "th_name": "โครงสร้างข้อมูลและขั้นตอนวิธี",
+      "en_name": "Data Structures and Algorithms"
+    },
+    "content": "การวิเคราะห์เวลาดําเนินงานและความซับซ้อนของขั้นตอนวิธี โครงสร้างข้อมูลแบบ ต่าง ๆ อาร์เรย์ ลิงค์ลิสต์ สแตค คิว ทรี แฮช กราฟ ไบนารีฮีป การวิเคราะห์ความ ต้องการด้านเวลา และ หน่วยความจําในการค้นหา ขั้นตอนวิธีเกี่ยวกับการค้นหา และการเรียงลําดับ การแก้ปัญหาแบบบรูทฟอร์ซ การแบ่งแล้วเข้ายึด ขั้นตอนวิธีการ แบบละโมบ การชดเชยกันระหว่างเวลากับเนื้อที่ของการคํานวณ Analysis of running time and complexity of the algorithms, data structures: arrays, linked lists, stacks, queues, trees, hash, graph, binary heap, analysis of running time and memory requirements in searching, algorithms for searching and sorting, algorithm techniques: brute force, divide-and-conquer, greedy algorithms, space and time trade-offs.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.217",
+      "en_code": "CS 217",
+      "th_name": "การออกแบบและวิเคราะห์ขั้นตอนวิธี",
+      "en_name": "Design and Analysis of Algorithms"
+    },
+    "content": "เทคนิคต่างๆ ที่ใช้ในการออกแบบและวิเคราะห์ขั้นตอนวิธี ได้แก่ วิธีการแบ่งแยก เอาชนะ วิธีละโมบ วิธีกําหนดการพลวัต วิธีการแวะผ่านบัพทุกบัพของกราฟ วิธีการ ย้อนรอย และวิธีบรานช์แอนบาวด์ Techniques used in design and analysis of algorithms such as divide- and-conquer, greedy algorithms, dynamic programming, graph traveling, backtracking, branch and bound. Study the topics of sorting, searching, Fourier transform, randomized algorithms, graph algorithms and optimization methods.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.221",
+      "en_code": "CS 221",
+      "th_name": "โครงสร้างและระบบคอมพิวเตอร์เบื้องต้น",
+      "en_name": "Introduction to Computer System and Organization"
+    },
+    "content": "โครงสร้างและสถาปัตยกรรมคอมพิวเตอร์ การออกแบบหน่วยประมวลผลและระบบ คอมทิวเตอร์ที่มีประสิทธิภาพ สมรรถนะของระบบคอมพิวเตอร์ ระบบแทนข้อมูล และการจัดการข้อมูลแบบครบหน่วย ลําดับขั้นของหน่วยความจําในระบบ คอมพิวเตอร์ ไพพ์ไลนิง การจัดลําดับงานแบบสถิตและแบบพลวัตร การประมวลผล ซูเปอร์สเกลาและเวกเตอร์ แคช สถาปัตยกรรมชุดคําสั่งเครื่อง มัลติโพรเซสเซอร์ และสถาปัตยกรรมทางเลือกอื่น Structure and architecture of digital computers, concepts in designing efficient computer processors and computer systems, computer system efficiency, data representation and manipulation of atomic data, memory hierarchy, pipelining, static and dynamic scheduling, superscalar and vector executions, cache, machine instruction architecture, multi-processors, contemporary architecture.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.222",
+      "en_code": "CS 222",
+      "th_name": "ระบบปฏิบัติการ",
+      "en_name": "Operating Systems"
+    },
+    "content": "แนวคิดพื้นฐานการออกแบบและการสร้างระบบปฏิบัติการ องค์ประกอบและ โครงสร้างของระบบปฏิบัติการ สภาพแวดล้อมแบบคอมมานด์ไลน์ การจัดการ โปรเซส การจัดลําดับการประมวลผลของซีพียู การจัดการหน่วยความจํา การจัดการ ระบบไฟล์ การจัดการอุปกรณ์ ภาวะทํางานพร้อมกันและการประสานจังหวะ ความ ปลอดภัยระบบคอมพิวเตอร์ กรณีศึกษา Basic concepts of operating systems design and implementation, operating system structure and components, command line environment, process management, cpu scheduling, memory management, file management, device management, concurrency and synchronization, computer security and case studies.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.223",
+      "en_code": "CS 223",
+      "th_name": "เทคโนโลยีจําลองสภาพแวดล้อมเสมือน",
+      "en_name": "Virtualization Technology"
+    },
+    "content": "แนวคิดพื้นฐานเกี่ยวกับการจําลองสภาพแวดล้อมเสมือน การจําลองสภาพแวดล้อม เสมือนแบบไฮเปอร์ไวเซอร์ เทคโนโลยีเครื่องเสมือน การจําลองสภาพแวดล้อม เสมือนแบบคอนเทนเนอร์ เทคโนโลยีคอนเทนเนอร์ เครือข่ายเสมือน การจัดการ และประสานการทํางาน Basic concepts of virtualization, hypervisor-based virtualization, virtual machine technology, container-based virtualization, container technology, virtual network, orchestration.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.224",
+      "en_code": "CS 224",
+      "th_name": "การดูแลและติดตามประสิทธิภาพระบบปฏิบัติการลีนุกซ์",
+      "en_name": "Linux Administration and Performance Monitoring"
+    },
+    "content": "ลีนุกซ์คอมมานด์ไลน์ การติดตั้งและปรับค่าซอฟต์แวร์ ผู้ใช้และกลุ่มผู้ใช้ การจัดการ อุปกรณ์สํารองข้อมูล การตั้งค่าเครือข่ายและไฟร์วอล การจัดการและป้องกันความ ปลอดภัยระบบไฟล์ การเขียนเชลล์สคริปต์ การติดตามประสิทธิภาพ การแก้ไข ปัญหาระบบ Have taken or Study with CS 233 Linux command line, software installation and configuration, users and groups, Managing storages, network and firewall configuration, managing and securing file systems, shell scripting, performance monitoring, system problem troubleshooting.",
+    "sentence_count": 10
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.232",
+      "en_code": "CS 232",
+      "th_name": "เทคโนโลยีกลุ่มเมฆเบื้องต้น",
+      "en_name": "Introduction to Cloud Computing Technology"
+    },
+    "content": "คุณลักษณะของการประมวลผลแบบกลุ่มเมฆ รูปแบบการให้บริการของการ ประมวลผลแบบกลุ่มเมฆ เช่น ไอเอเอเอส พีเอเอเอส และเอสเอเอเอส ทักษะการ พัฒนาแอปพลิเคชันเพื่อให้บริการผ่านเทคโนโลยีกลุ่มเมฆ การรักษาความปลอดภัย บนกลุ่มเมฆ Cloud computing concepts and characteristics, cloud computing service models e.g. Infrastructure as a Service (|ลล5), Platform as a Service (PaaS), and software as a service (SaaS), cloud application development, cloud security.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.233",
+      "en_code": "CS 233",
+      "th_name": "สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ",
+      "en_name": "Computer Architecture and Operating Systems"
+    },
+    "content": "สถาปัตยกรรมชุดคําสั่ง การประมวลผลแบบสายท่อ มัลติโพรเซสเซอร์ การจัดการ หน่วยความจํา แคชและการ จัดระบบหน่วยความจําเสมือน การประสานเวลาของ โปรเซส การจัดตารางซีพียู มัลติเธรดดิ้ง ระบบไฟล์ การควบคุมอินพุตเอาต์พุตและ อุปกรณ์ Instruction set architectures (ISA), pipeline processing, multiprocessors, memory management, cache and virtual memory organization, process synchronization, CPU scheduling, multithreading, file system, input/output control and devices.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.234",
+      "en_code": "CS 234",
+      "th_name": "เครือข่ายคอมพิวเตอร์และความปลอดภัยทางไซเบอร์",
+      "en_name": "Computer Network and Cyber-Security"
+    },
+    "content": "แนวคิดและคําศัพท์ด้านความปลอดภัย เครื่องมือรักษาความปลอดภัย: การพิสูจน์ ตัวตน การควบคุมการเข้าถึงและการเข้ารหัส องค์ประกอบพื้นฐานของเครือข่าย ลําดับขั้นอินเทอร์เน็ตและโปรโตคอล การโจมตีทางไซเบอร์และการป้องกัน ความ ปลอดภัยของเว็บและอีเมล์ Security concepts and terminology, security tools: authentication, access control and cryptography, basic network components, Internet layer and protocol, cyber attack and defence, web and email security.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.240",
+      "en_code": "CS 240",
+      "th_name": "หลักการวิทยาการข้อมูล",
+      "en_name": "Principles of Data Science"
+    },
+    "content": "หลักการพื้นฐานของวิทยาการข้อมูลที่เกี่ยวข้องกับอัลกอริทีม กระบวนการ วิธีการ และหลักการคิด รวมทั้งเครื่องมือที่ใช้ในการวิเคราะห์ข้อมูล หัวข้อพื้นฐานใน วิทยาการข้อมูล ได้แก่ การจัดการข้อมูล การวิเคราะห์ข้อมูลเชิงสถิติ และเชิงการ เรียนรู้ของเครื่องจักร การนําเสนอข้อมูลด้วยทัศนสารสนเทศและการทํางานกับ ข้อมูลขนาดใหญ่ Fundamental principles of data science including algorithms, processes, methods, data-analytic thinking and tools to support problem-focused data-analytic thinking. Introduction to topics in data science: data manipulation, data analysis with statistics and machine learning, data communication with information visualization, and data at scale.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.241",
+      "en_code": "CS 241",
+      "th_name": "ภาษาโปรแกรมและกรอบความคิด",
+      "en_name": "Programming Languages and Paradigms"
+    },
+    "content": "หลักการของภาษาโปรแกรม ไวยากรณ์และวากยะสัมพันธ์ ศึกษากรอบแนวคิดของ ภาษาโปรแกรมประเภทต่างๆ การโปรแกรมโดยคํานึงถึงสมรรถนะ การโปรแกรม โดยอาศัยส่วนต่อประสานโปรแกรมประยุกต์ ไลบรารี่สําหรับจัดการข้อมูล และการ โปรแกรมเชิงเหตุการณ์ Principles of programming languages, syntax and semantics. Different programming paradigms, performance-aware programming. Programming using Application Programming Interface (API), library for data manipulation event-driven programming.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.242",
+      "en_code": "CS 242",
+      "th_name": "ภาษาไพทอนและการประยุกต์",
+      "en_name": "Python Programming and Applications"
+    },
+    "content": "แนะนําทักษะการเขียนโปรแกรม การแก้ปัญหา และการคิดอัลกอริทีมในภาษาไพ ทอน หัวข้อรวมถึงตัวแปร อินพุต/เอาต์พุต คําสั่งเงื่อนไข นิพจน์บูลืน โครงสร้างการ ควบคุม ฟังก์ชัน และประเภทข้อมูลบิวด์อินในภาษา ศึกษาการสร้างแอปพลิเคชัน ด้วยภาษาไพทอนและไลบรารียอดนิยม ในสาขาวิทยาการข้อมูล หรือเครือข่าย หรือ การพัฒนาเว็บ มีการฝึกปฏิบัติผ่านการทําโครงงาน Introduces the skills of programming, problem solving and algorithmic thinking in Python. Topics include variables, input/output, conditional statements, boolean expressions, control structures, functions and build-in data types . Learn to build applications with Python programming and its popular libraries in the field of data science, or network or web development. Practice through assigned project.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.246",
+      "en_code": "CS 246",
+      "th_name": "การแสดงข้อมูล",
+      "en_name": "Data Visualization"
+    },
+    "content": "ทฤษฎีและเทคนิคในการแสดงข้อมูล หลักการออกแบบ พัฒนาและการประเมินการ แสดงข้อมูล การได้มา การแยก และการวิเคราะห์ข้อมูลขนาดใหญ่ เทคนิคและ เครื่องมือสําหรับแสดงข้อมูลในรูปแบบต่างๆ เพื่อสื่อสารสิ่งที่ค้นพบหรือคําตอบของ ปัญหาสําหรับสนับสนุนการตัดสินใจ Key visualization techniques and theory. The design, implementation and evaluation of complementary visual and verbal representations of patterns. How to acquire, parse, and analyze large datasets in order to convey findings answer questions, drive decisions, and provide persuasive evidence supported by data.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.251",
+      "en_code": "CS 251",
+      "th_name": "ระบบฐานข้อมูล 1",
+      "en_name": "Database Systems 1"
+    },
+    "content": "แนวคิดพื้นฐานและสถาปัตยกรรมของระบบฐานข้อมูล การจําลองข้อมูลเชิงแนวคิด การออกแบบฐานข้อมูลและการทําให้เกิดผล ภาษาสอบถาม เมตาเดตา การจัด ระเบียบแฟ้มและหน่วยเก็บข้อมูลเชิงกายภาพ แนะนําการจัดการรายการ เปลี่ยนแปลง มีฝึกปฏิบัตินอกเวลา Fundamental database concepts and architecture, conceptual data models, design and implementation, query languages, metadata, physical data storage, file organizations, and introduction to transaction management.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.255",
+      "en_code": "CS 255",
+      "th_name": "การเขียนโปรแกรมสําหรับธุรกิจ",
+      "en_name": "Computer Programming for Business"
+    },
+    "content": "การแก้ปัญหาทางธุรกิจแบบเบื้องต้นด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและ พัฒนาอัลกอริทีมด้วยเทคนิคและเครื่องมือทางคอมพิวเตอร์ที่เหมาะสมกับปัญหา ทางธุรกิจ การทดสอบ และตรวจหาข้อผิดพลาด การพัฒนาส่วนต่อประสานผู้ใช้เชิง กราฟิกเบื้องต้น การพัฒนาโปรแกรมเชิงเหตุการณ์ Computer programming to solve business problems, algorithm design and implementation via programming paradigm and tools suitable for business problems domain, testing and debugging, basic graphical user interface development, event-driven programming.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.261",
+      "en_code": "CS 261",
+      "th_name": "วิศวกรรมซอฟต์แวร์เบื้องต้น",
+      "en_name": "Introduction to Software Engineering"
+    },
+    "content": "คุณลักษณะซอฟต์แวร์ คุณภาพของซอฟต์แวร์และโครงการซอฟต์แวร์ หลักการของ วิศวกรรมซอฟต์แวร์ ระเบียบวิธีในการพัฒนาซอฟต์แวร์ กระบวนการพัฒนา ซอฟต์แวร์ที่สําคัญ การวางแผนและจัดการโครงการ การประเมินเวลาและค่าใช้จ่าย วิเคราะห์และการระบุข้อกําหนด เทคนิคการวิเคราะห์และออกแบบซอฟต์แวร์ แนะนําสถาปัตยกรรมซอฟต์แวร์ เทคนิคการพัฒนาโปรแกรม การตรวจสอบและการ ทวนสอบซอฟต์แวร์ วิวัฒนาการของซอฟต์แวร์ สภาพแวดล้อมการผลิตซอฟต์แวร์ และเครื่องมือช่วยจัดการโครงการ กรณีศึกษา มีฝึกปฏิบัตินอกเวลา Fundamental of software engineering principles, software development methodology, software process models, basics of software project planning and project management, basics of time and cost estimation, requirement elicitation and specification, software analysis and design, concept of software architecture, software construction techniques including design pattern, component-oriented development, basics of verification and validation, software evolution, software development environment, and sample of CASE tools.",
+    "sentence_count": 13
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.262",
+      "en_code": "CS 262",
+      "th_name": "การทดสอบซอฟต์แวร์เบื้องต้น",
+      "en_name": "Introduction to Software Testing"
+    },
+    "content": "แนวคิดการทดสอบและการประกันคุณภาพซอฟต์แวร์ เทคนิคการสร้างข้อมูลการ ทดสอบแบบแบลคบอกซ์และไวท์บอกซ์ การทดสอบซอฟต์แวร์ในระดับยูนิต โมดูล ระบบย่อย และทั้งระบบ กระบวนการทดสอบและการวางแผนการทดสอบ ซอฟต์แวร์ Software testing and quality assurance concepts, test data generation using white-box and black-box techniques, software testing at unit, module, sub-system, and system levels, and software testing process and planning.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.263",
+      "en_code": "CS 263",
+      "th_name": "การกําหนดความต้องการทางซอฟต์แวร์",
+      "en_name": "Software Requirement Specification"
+    },
+    "content": "กระบวนการในการหาความต้องการในหลายรูปแบบ ได้แก่ การสืบค้น การวิเคราะห์ การหาข้อตกลง การระบุข้อกําหนด การทวนสอบ ศึกษาระเบียบวิธี แนะนําเทคนิค และเครื่องมือที่จะนําไปใช้เพื่อนิยาม สร้างเอกสาร และประกันความพึงพอใจของ ลูกค้า Quantify many aspects of requirement processes include eliciting, analyzing, negotiating, specifying, validating, introducing methods, techniques and tools used to define, document and ensure customer satisfaction.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.264",
+      "en_code": "CS 264",
+      "th_name": "ความปลอดภัยทางซอฟต์แวร์และความเป็นส่วนตัวของ",
+      "en_name": "Software Security and Data Privacy"
+    },
+    "content": "ข้อมูล ความปลอดภัยของซอฟต์แวร์ขั้นพื้นฐาน ช่องโหว่และการโจมติของซอฟต์แวร์ การ เขียนโปรแกรมอย่างปลอดภัย โปรแกรมประสงค์ร้าย รวมถึงการป้องกันและการ จํากัดขอบเขต ความปลอดภัยของระบบปฏิบัติการและฐานข้อมูล ความเป็นส่วนตัว ของข้อมูลและการไม่เปิดเผยตัวตน Basic software security, software vulnerabilities and attacks, security programming, malwares including protection and confinement, operating system and database security, data privacy and anonymity.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.265",
+      "en_code": "CS 265",
+      "th_name": "การพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพาเบื้องต้น",
+      "en_name": "Basic Mobile Development"
+    },
+    "content": "ภาพรวมการพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพา ข้อจํากัดและความ ต้องการในการออกแบบส่วนต่อประสานผู้ใช้สําหรับอุปกรณ์ที่มีทรัพยากรจํากัด การ ออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย แนวคิดโดยรวม ปัญหาการ ออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ Developing landscape of mobile applications, the specific constraints and requirements of user interface design for limited-resource devices, providing alternative resources, conceptual overview, design issues, and practical development issues.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.271",
+      "en_code": "CS 271",
+      "th_name": "ปัญญาประดิษฐ์เบื้องต้น",
+      "en_name": "Artificial Intelligence Fundamentals"
+    },
+    "content": "ปัญหาทางปัญญาประดิษฐ์ การแทนความรู้ การค้นหาแบบไม่มีข้อมูล การค้นหาแบบ มีข้อมูล ปัญหาการทําตามเงื่อนไข ตรรกศาสตร์และการให้เหตุผลอัตโนมัติ การค้นหา เชิงปฏิปักษ์ การเรียนรู้ของเครื่องจักรเบื้องต้น Problems in artificial intelligent systems, knowledge representation, uniform search, inform search, constraint satisfaction problems, logics and automatic reasoning, adversarial search, introduction to machine learning.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.285",
+      "en_code": "CS 285",
+      "th_name": "การประมวลสารสนเทศของมนุษย์",
+      "en_name": "Human Information Processing"
+    },
+    "content": "งานวิจัยและทฤษฎีเบื้องต้นเกี่ยวกับการประมวลผลสารสนเทศของมนุษย์ ความใส่ใจ การรู้จําแบบ ความจํา การแทนองค์ความรู้และภาษา กระบวนการแก้ไขปัญหา กระบวนการหาเหตุผล และกระบวนการเรียนรู้ ความสัมพันธ์ระหว่างกระบวนการ รู้จําของมนุษย์กับต้นแบบทางคอมพิวเตอร์ และการประมวลนัยสําคัญของเนื้อหา เกี่ยวกับการรู้จําเพื่อสร้างระบบสารสนเทศ Introduction to research and theory on topics in human information processing including perception, attention, pattern recognition, memory, representation of knowledge, language, problem solving, reasoning, and learning, with emphasis on the relationship to computer models of these processes and implications of this body of knowledge for building information systems.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.287",
+      "en_code": "CS 287",
+      "th_name": "การออกแบบสุนทรียภาพทางทัศนะ",
+      "en_name": "Visual Design"
+    },
+    "content": "ความเข้าใจแบบองค์รวมของสุนทรียภาพทางทัศนะ แนวคิดเชิงทฤษฎีและเชิงปฏิบัติ ของการออกแบบสุนทรียภาพทางทัศนะ การทําความเข้าใจผู้ใช้ หลักการออกแบบ หลักองค์ประกอบการออกแบบ ทฤษฎีสี การออกแบบตัวอักษร ระบบกริด เครื่องมือ ออกแบบสุนทรียภาพทางทัศนะ Holistic understanding of visual design, theoretical and practical concepts of visual design, user research, design principles, composition principles, color theory, typography, grid system, visual design tools.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.299",
+      "en_code": "CS 299",
+      "th_name": "คอมพิวเตอร์กราฟิก",
+      "en_name": "Computer Graphics"
+    },
+    "content": "ซอฟต์แวร์และฮาร์ดแวร์สําหรับคอมพิวเตอร์กราฟิกแบบโต้ตอบ วิธีการทั่วไปที่ใช้ใน การออกแบบและแสดงผลภาพ การดําเนินการพื้นฐานในปริภูมิ 2 มิติและ 3 มิติ การ แปลงในระบบเรขาคณิต การแปลงจุดหรือตําแหน่งที่มองเห็น การตัดภาพ ทฤษฎีสี Software and hardware principles of interactive graphics, general methods for designing and displaying output, elementary operations in two-and three-dimensional space, transformational geometry, viewing transformations, clipping, color theory.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.301",
+      "en_code": "CS 301",
+      "th_name": "การเตรียมความพร้อมสําหรับโครงงานพิเศษและสหกิจ",
+      "en_name": "Preparation for Senior Projects and Co-operative Education"
+    },
+    "content": "ศึกษา ฝึกทักษะที่จําเป็นต้องใช้ในการทํางานทั้งด้านวิชาการและภาคธุรกิจ การเขียนใบ สมัครงาน การเขียนประวัติ การสัมภาษณ์ การคิดเชิงวิพากษ์ การสืบค้นข้อมูลเพื่อ ประกอบการทํางาน การทํางานเป็นทีมในการพัฒนาซอฟต์แวร์ การเขียนรายงานและ การอ้างอิง การนําเสนอ รวมถึงเทคนิคการเจรจาสื่อสารภายในองค์กร Preparing students technical professional skills, application and resume writing, interview, critical thinking, searching techniques, teamwork, collaboration in software development teams, professional report writing, academic writing styles, citation and bibliography, presentation techniques, and organization communication.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.303",
+      "en_code": "CS 303",
+      "th_name": "โครงงานพิเศษ 1",
+      "en_name": "Special Projects 1"
+    },
+    "content": "โครงงานการศึกษาจะกําหนดหรือได้รับอนุมัติจากสาขาวิชา ศึกษาหัวข้อทางวิชาการ โดยมีวัตถุประสงค์ให้นักศึกษาค้นคว้าทางวิชาการ เขียนรายงาน และเสนอต่อ คณะกรรมการ Senior Projects will be assigned or approved by the department. This course prepares students for developing a proposal for doing research, writing research papers, and presenting the proposal to the committee.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.304",
+      "en_code": "CS 304",
+      "th_name": "สหกิจศึกษา 1",
+      "en_name": "Co-operative Education 1"
+    },
+    "content": "การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจาก สาขาวิชา โดยนักศึกษาต้องนําความรู้ทางวิชาการที่ได้เรียนไปประยุกต์ใช้และฝึก ทักษะในภาวะแวดล้อมการทํางานจริง ภายใต้การกํากับดูแลของสถานประกอบการ นั้น โดยต้องแสดงงานที่ได้รับมอบหมายอย่างชัดเจน พร้อมทั้งแนวคิดที่ใช้ในการ ออกแบบ พัฒนาและประยุกต์ เมื่อเสร็จสิ้นโครงงานแล้วต้องจัดส่งผลงานในรูปแบบ ของรายงานตามที่สาขาวิชากําหนด Supervised practical training on the given assignments from authorized body from the faculty. Student must show the capability in implementation of knowledge and skill in the actual working environmemt. Written report of design, development, and implementation must be submitted the end of practical period.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.305",
+      "en_code": "CS 305",
+      "th_name": "จรรยาบรรณทางวิชาชีพและเชิงสังคม",
+      "en_name": "Social and Professional Ethics"
+    },
+    "content": "บริบททางสังคมของระบบคอมทิวเตอร์ วิธีการและเครื่องมือในการวิเคราะห์ ความ รับผิดชอบและ จรรยาบรรณทางวิชาชีพ กฎหมายทรัพย์สินทางปัญญา การยอมรับ ความเสี่ยงและการชดใช้ต่อระบบคอมพิวเตอร์ การละเมิดทรัพย์สินทางปัญญา การ ละเมิดสิทธิส่วนบุคคล อาชญากรรมในระบบคอมพิวเตอร์ Social context of computing, methods and tools of analysis, professional and ethical responsibilities, intellectual property, risks and liabilities of computer-based systems, privacy and civil liberties, intellectual property infringement, computer crime in computing.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.310",
+      "en_code": "CS 310",
+      "th_name": "หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์",
+      "en_name": "Selected Topics in Computer Science"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิทยาการ คอมทพิวเตอร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Topics selected from areas in Computer Science, keep up with the new technology and knowledge.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.314",
+      "en_code": "CS 314",
+      "th_name": "ทฤษฎีออโตมาตา",
+      "en_name": "Automata Theory"
+    },
+    "content": "มูลฐานของเครื่องจักรนามธรรมและภาษา ทฤษฎีออโตมาตา นิพจน์แบบเรกูลาร์ ภาษาแบบเรกูลาร์ ออโตมาตาแบบกดลง ภาษาไม่พึ่งบริบท เครื่องจักรทัวริง ปัญหา การหยุด ความสามารถและประสิทธิภาพในการแก้ปัญหาของเครื่องคอมพิวเตอร์ Fundamentals of abstract machine and language, automata theory, regular expression, regular language, pushdown automata, context-free language, Turing machine, the halting problem, undecidability and intractability.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.320",
+      "en_code": "CS 320",
+      "th_name": "หัวข้อเลือกสรรด้านระบบปฏิบัติการ",
+      "en_name": "Selected Topics in Operating Systems"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบปฏิบัติการ ที่ เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in operating systems.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.325",
+      "en_code": "CS 325",
+      "th_name": "อินเทอร์เน็ตของสรรพสิ่งเบื้องต้น",
+      "en_name": "Introduction to Internet of Things"
+    },
+    "content": "กรอบความคิดและการประยุกต์ใช้ส่วนรับประสาทสัมผัส เพื่อออกแบบระบบฝังตัวใน รูปแบบอินเทอร์เน็ตของสรรหสิ่ง เทคนิคการอ่านค่าจากส่วนรับประสาทสัมผัส การ โปรแกรมอินเทอร์รัพท์ การเชื่อมต่อกับแอปพลิเคชัน ระบบสังเกตการณ์ ระบบ ควบคุมตามเงื่อนไขที่กําหนด Conceptual framework and application of sensory receptors to design an embedded system as Internet of Things module, techniques for reading values from sensory devices, interrupt programming, integrated into the software application, monitoring system, control system according to the specified conditions.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.331",
+      "en_code": "CS 331",
+      "th_name": "คอมพิวเตอร์เครือข่าย",
+      "en_name": "Net-Centric Computing"
+    },
+    "content": "องค์ประกอบหลักและมาตรฐานเครือข่ายสําหรับการโอนถ่ายข้อมูลผ่านระบบ เครือข่ายอินเทอร์เน็ต แบบจําลองแบบลําดับขั้นโอเอสไอ แบบจําลองแบบลําดับขั้นที ซีพี/ไอพี หน้าที่หลักของแต่ละลําดับขั้น โปรโตคอลหลักในแต่ละลําดับขั้นและการ ทํางานร่วมกัน การเขียนโปรแกรมซ็อกเก็ต Basic network components and major network standards for computer communications via the Internet. The OSI layered model. The TCP/IP layered model. Basic functions of each layer. Major network protocols in each layers and their interoperability, socket programming.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.332",
+      "en_code": "CS 332",
+      "th_name": "ความปลอดภัยของระบบคอมพิวเตอร์",
+      "en_name": "Computer System Security"
+    },
+    "content": "ความปลอดภัยของระบบคอมพิวเตอร์เบื้องต้น ภัยคุกคามและช่องโหว่ การพิสูจน์ ตัวตนและการควบคุมการเข้าถึง การเข้ารหัสและลายมือชื่อดิจิทัล ความปลอดภัย ของโปรแกรมและโปรแกรมประสงค์ร้าย ความปลอดภัยของระบบปฏิบัติการ ระบบ ฐานข้อมูล การโจมติเครือข่ายและการป้องกัน ความปลอดภัยของแอปพลิเคชันบน เครือข่าย ประเด็นด้านกฎหมายและความเป็นส่วนตัว Introduction to computer system security, threats and vulnerabilities, authentication and access control, cryptography and digital signature, program security and malwares , security in operating system, database system, network attack and defence, netwok application security, legal and privacy issues.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.335",
+      "en_code": "CS 335",
+      "th_name": "เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ",
+      "en_name": "Practical Computer Networking"
+    },
+    "content": "ความรู้ขั้นสูงเกี่ยวกับการสื่อสารผ่านเครือข่ายคอมพิวเตอร์ ทักษะการต่อเชื่อมและ การตั้งค่าอุปกรณ์ภายในระบบเครือข่าย การตั้งค่าอุปกรณ์เครือข่ายหลักได้แก่ เราท์ เตอร์ สวิตช์ และระบบปลายทาง ไอพีโพรโทคอลเวอร์ชัน 6 การจัดแบ่งเลขที่อยู่ แบบไอพี เทคนิคการแปลงหมายเลขไอพี (wun) โพรโทคอลสนับสนุนการตั้งค่า กําหนดที่โฮสต์แบบพลวัตร (ดีเอชซีพี) สวิตช์เน็ตเวิร์ก ข่ายงานบริเวณเฉพาะที่แบบ เสมือน การค้นหาเส้นทางระหว่างข่ายงานเฉพาะที่แบบเสมือน โพรโทคอลค้นหา เส้นทาง การป้องกันการโจมตีระบบคอมพิวเตอร์ผ่านทางเครือข่ายเบื้องต้น การ ควบคุมการผ่านเข้าออก Advanced knowledge and hands-on experience in computer communications and networking, basic router, switch, and end-host configurations, internet protocol version 6 (Ipvé6). IP addressing, network address translation (NAT), dynamic host configuration protocol (DHCP), switched networks, virtual LAN (VLAN), inter VLAN routing, routing protocols, basic network security, access control List (ACL).",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.336",
+      "en_code": "CS 336",
+      "th_name": "เทคโนโลยีเครือข่ายไร้สาย",
+      "en_name": "Wireless Network Technology"
+    },
+    "content": "ภาพรวมของการสื่อสารเคลื่อนที่และเครือข่ายไร้สาย พื้นฐานการส่งข้อมูลแบบไร้ สาย เทคนิคการควบคุมการเข้าถึงพร้อมกันหลายทาง ระบบโทรศัพท์เคลื่อนที่ เทคโนโลยีของระบบแลนไร้สาย (มาตรฐาน IEEE 802.11) โมบายไอพี เทคโนโลยีบลู ทูท เทคโนโลยีซิกบี เทคโนโลยีเซ็นเซอร์ไร้สาย ไวแมกซ์ ความปลอดภัยบนเครือข่าย ไร้สาย Overview of mobile communications and wireless networks, wireless transmission basis, multiple access control techniques, mobile telephone systems, wireless LAN. Mobile IP, Bluetooth, zigbee. WiMAX, wireless network security.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.337",
+      "en_code": "CS 337",
+      "th_name": "ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบ",
+      "en_name": "Introduction to Cluster Computing and Distributed Computing"
+    },
+    "content": "กระจายเบื้องต้น การสร้างระบบคลัสเตอร์หรือบีวูฟ การทดลองสร้างระบบคลัสเตอร์อย่างง่ายๆ การ ติดตั้งซอฟต์แวร์ที่ใช้สําหรับบริหารจัดการระบบคลัสเตอร์ การมอนิเตอร์ระบบฯ การ กําหนดตารางการทํางานของโพรเซสเซอร์ในระบบการบริหารจัดการผู้ใช้ การดูแล ระบบคลัสเตอร์ การรักษาความปลอดภัย Study the construction of Beowulf and cluster computers, building a small cluster, using cluster installation and configuration tools, cluster monitoring, job scheduling, user management, cluster systems maintenance, security measures and policies.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.340",
+      "en_code": "CS 340",
+      "th_name": "หัวข้อเลือกสรรด้านภาษาโปรแกรม",
+      "en_name": "Selected Topics in Programming Languages"
+    },
+    "content": "หัวข้อเลือกสรรจาก ความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของภาษาโปรแกรมที่ น่าสนใจ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in programming languages.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.341",
+      "en_code": "CS 341",
+      "th_name": "วิศวกรรมข้อมูลขนาดใหญ่",
+      "en_name": "Big Data Engineering"
+    },
+    "content": "ความท้าทายและระบบนิเวศของข้อมูลขนาดใหญ่ วงจรชีวิตของการวิศวกรรมข้อมูล แหล่งข้อมูลและชนิดข้อมูล การจัดเก็บข้อมูล บัญชีข้อมูล การสร้างดาต้าเลคและ ดาต้าแวร์เฮาส์ การวางแผนและเตรียมกระบวนการสําหรับดาต้าไปป์ไลน์ รูปแบบอี ทีแอล (นําเข้า-จัดระเบียบ-นําไปใช้ประโยชน์) การสืบค้นและประมวลผลข้อมูล การ แสดงข้อมูลด้วยภาพ กรณีศึกษา Big data challenges and ecosystem, data engineering lifecycle, data sources and types, data storage, data catalog, building data lake and data warehouse, orchestrating data pipelines, ETL (Extract-Transform- Load) patterns, data query and processing, data visualization, case studies.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.342",
+      "en_code": "CS 342",
+      "th_name": "การวิเคราะห์และเทคโนโลยีการตลาดดิจิทัล",
+      "en_name": "Digital Marketing Technology and Analytics"
+    },
+    "content": "พื้นฐานเทคโนโลยีของการตลาดดิจิทัล ประเภทของเทคโนโลยีทางการตลาดและ โฆษณา การวัดผลและ KP] ของแผนการตลาด การวางแผนการตลาดดิจิทัล การ วิเคราะห์ข้อมูลทางการตลาดด้วยเทคนิคการเรียนรู้ของเครื่อง Foundations of digital marketing technology, types of marketing/ad technologies, fundamentals of measuring results and KPls for marketing plans, digital marketing plan, marketing analysis using machine learning techniques.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.343",
+      "en_code": "CS 343",
+      "th_name": "การเรียนรู้เชิงลึก",
+      "en_name": "Applied Deep Learning"
+    },
+    "content": "การทําความเข้าใจแนวคิดการเรียนรู้ของเครื่องและการเรียนรู้เชิงลึกเบื้องต้น หน่วย การรับรู้ (0๑๒๐๐๐๒0๐) การเรียนรู้ด้วยโครงข่ายประสาทเทียม การเรียนรู้ด้วย โครงข่ายประสาทเทียมเชิงลึก การเรียนรู้เชิงลึกในแบบต่างๆ Lei CNN, RNN, LSTM, BM การประยุกต์ใช้การเรียนรู้เชิงลึกกับการเรียนรู้แบบทั้งมีผู้สอนและไม่มี ผู้สอนสําหรับการแก้ปัญหาโดยใช้ไลบรารี่การเรียนรู้เชิงลึกในภาษาโปรแกรม (Tensorflow, PyTorch) การทําโครงงานเพื่อแก้ปัญหาหัวข้อที่นักศึกษาสนใจโดย ใช้การเรียนรู้เชิงลึก Basic concepts of machine learning and deep learning; Perceptron; Artificial Neural Network; Various types of neural network: Convolution Neural Networks (CNN), Recurrent Neural Networks (RNN), Multilayer Perceptron (MLP), Long-short Term Memory (LSTM), Auto Encoder (AE); Implementing deep learning-based applications in both supervised and unsupervised learning using libraries to solve a selected problem.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.345",
+      "en_code": "CS 345",
+      "th_name": "การเรียนรู้ของเครื่องเชิงประยุกต์",
+      "en_name": "Practical Machine Learning"
+    },
+    "content": "ศึกษาการเรียนรู้ของเครื่องและวิทยาศาสตร์ข้อมูลด้วยการลงมือปฏิบัติเขียน โปรแกรม อภิปรายเกี่ยวกับการประยุกต์ใช้โมเดลการเรียนรู้ของเครื่อง ทั้งโมเดลการ เรียนรู้แบบมีผู้สอนและการเรียนรู้แบบไม่มีผู้สอน กับชุดข้อมูลจริง รวมถึงการ จัดเตรียมข้อมูล การเลือกโมเดลและการประเมินผล โดยใช้งานโอเพนซอร์สที่เป็นที่ นิยม bw scikit-learn และ tensor flow This class offers a hands-on approach to machine learning and data science. The class discusses the application of machine learning methods both supervised and unsupervised learning on real world dataset, including data preparation, model selection and evaluation. This class relies on available open source implementations such as scikit-learn and tensor flow for all implementations.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.346",
+      "en_code": "CS 346",
+      "th_name": "แอปพลิเคชันและการวิเคราะห์ข้อมูลขนาดใหญ่",
+      "en_name": "Big Data Applications and Analytics"
+    },
+    "content": "ศึกษาเทคโนโลยีที่ทันสมัยในระบบจัดการฐานข้อมูลสมัยใหม่ การจัดการและการ ทํางานกับชุดข้อมูลที่มีปริมาณมากในระบบประมวลข้อมูลประสิทธิภาพสูงและระบบ การวิเคราะห์ข้อมูลขนาดใหญ่ การทําโครงงานที่เกี่ยวข้องกับข้อมูลขนาดใหญ่ที่มีอยู่ จริง เช่น ข้อมูลโฆษณาทางอินเทอร์เน็ต ข้อมูลสุขภาพ และข้อมูลจากเครือข่ายสังคม ออนไลน์ Explore new technologies in modern database management systems. Discuss topics related to managing and using large-scale data sets in both high-performance transaction processing systems and large-scale analytical systems. All class projects will be in the context of real-world application domains, such as Internet advertising, health care, and social network analysis.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.347",
+      "en_code": "CS 347",
+      "th_name": "คลังข้อมูลและอัจฉริยะทางธุรกิจ",
+      "en_name": "Data Warehousing and Business Intelligence"
+    },
+    "content": "หลักการของคลังข้อมูล สถาปัตยกรรมระบบคลังข้อมูล การออกแบบฐานข้อมูลเชิง กายภาพ ตัวแบบเชิงมิติ การสกัด การแปลง และการโหลดข้อมูล การประยุกต์ใช้ คลังข้อมูล การวิเคราะห์เชิงธุรกิจ การประมวลผลเชิงวิเคราะห์แบบออนไลน์ (OLAP) การทําเหมืองข้อมูลเบื้องต้น และการทํามโนภาพข้อมูล (Visualization) ตัวแบบและ เทคโนโลยีการจัดเก็บข้อมูล เครื่องมือ และเทคนิคโปรแกรมสําเร็จรูป เพื่อสร้าง อัจฉริยะทางธุรกิจ Data warehousing, data warehouse architecture, physical database design,dimension modeling; extraction, transformation, and loading, its applications to business intelligence, business analytics, OLAP, introduction to data mining, data visualization, data warehouse storage models and technology, business analytics techniques and tools for business intelligence.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.351",
+      "en_code": "CS 351",
+      "th_name": "ระบบคอมพิวเตอร์ในธุรกิจและการพาณิชย์อิเล็กทรอนิกส์",
+      "en_name": "Business Computing and Electronic Commerce"
+    },
+    "content": "แนวคิดการใช้งานระบบสารสนเทศในการบริหารจัดการธุรกิจ โปรแกรมคอมพิวเตอร์ ประยุกต์ในงานธุรกิจ การดําเนินกิจกรรมทางธุรกิจผ่านเครือข่ายคอมพิวเตอร์ โครงสร้างพื้นฐานของพาณิชย์อิเล็กทรอนิกส์ มาตรฐานการดําเนินการและการ แลกเปลี่ยนข้อมูลทางอิเล็กทรอนิกส์ Concepts of information systems in business management, business application software, business processes over computer networks, electronic commerce infrastructures, computing and data exchange standards.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.353",
+      "en_code": "CS 353",
+      "th_name": "การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ",
+      "en_name": "Information Retrieval and Web Search"
+    },
+    "content": "ทฤษฎีและเทคนิคในการจัดทําดรรชนีและการค้นคืนสารสนเทศด้วยระบบ คอมพิวเตอร์ หัวข้อรวมถึงการค้นคืนสารสนเทศแบบข้อความทั่วๆไป การสร้าง ดรรชนี การประมวลผลคิวรี และการจัดลําดับข้อมูลเอกสาร การเรียนรู้ของเครื่อง สําหรับข้อความ วิธีการประเมินระบบค้นคืน สถาปัตยกรรมของโปรแกรมค้นหาบน เว็บ การรวบรวมหน้าเว็บและการจัดทําดรรชนีค้นหาเว็บ โครงสร้างเว็บและการ วิเคราะห์การเข้าใช้งาน Theories and techniques on computerized information indexing and retrieval. Topics include text-based information retrieval in general, index building, query processing, and document ranking, text-based machine learning methods, Evaluation methods, Web search engine architecture, Web crawling and indexing, Web structure and usage analytics.",
+    "sentence_count": 9
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.354",
+      "en_code": "CS 354",
+      "th_name": "ระบบฐานข้อมูล 2",
+      "en_name": "Database Systems 2"
+    },
+    "content": "หลักการและเทคนิคการออกแบบระบบการจัดการฐานข้อมูลขั้นสูง เนื้อหาครอบคลุม วิธีเข้าถึง ประสิทธิภาพและการประมวลผลข้อคําถาม การประมวลผลรายการ เปลี่ยนแปลง การควบคุมภาวะพร้อมกัน การกู้ข้อมูล และความปลอดภัยของข้อมูล ระบบฐานข้อมูลแบบกระจาย แนวคิด การออกแบบ และการจัดการรายการ เปลี่ยนแปลง แนะนําระบบฐานข้อมูลเชิงวัตถุ Advanced database management system design principles and techniques. Topics may be selected from: access methods, query processing and optimization, transaction management: concurrency control, recovery, and data security; distributed database systems: concepts, design and transaction management, and introduction to object-oriented database systems.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.355",
+      "en_code": "CS 355",
+      "th_name": "กลยุทธ์และการเปลี่ยนแปลงสู่ดิจิทัล",
+      "en_name": "Digital Strategy and Transformation"
+    },
+    "content": "การวิเคราะห์กลยุทธ์ แนวคิดหลักและเครื่องมือของเทคโนโลยีดิจิทัลยุคใหม่ การ วิเคราะห์ข้อมูล ปัญญาประดิษฐ์ แพลตฟอร์มคลาวด์ บล็อกเชน ไอโอที การใช้ เทคโนโลยีดิจิทัลในการเพิ่มประสิทธิภาพกระบวนการและบริการขององค์กร Strategic analysis, key concepts and tools of emerging digital technologies (data analysis, artificial intelligence, cloud platform, blockchain, loT), digital transformation for organizations.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.356",
+      "en_code": "CS 356",
+      "th_name": "ระบบสารสนเทศเพื่อการบริหาร",
+      "en_name": "Management Information Systems"
+    },
+    "content": "แนวคิดเบื้องต้นเกี่ยวกับระบบสารสนเทศ องค์กร และการบริหาร โครงสร้างพื้นฐาน ทางด้านเทคโนโลยีสารสนเทศสําหรับองค์กร ระบบสารสนเทศที่สําคัญในองค์กร อาทิ ระบบสารสนเทศเพื่อการบริหาร ระบบสารสนเทศเพื่อการดําเนินงาน แนวทางการ พัฒนาระบบสารสนเทศและการบริหารการใช้งานระบบ ประเด็นทางด้านจริยธรรม และผลกระทบทางด้านสังคมที่เกี่ยวข้องกับการใช้ระบบ Fundamental of information systems, organizations and management; Information technology infrastructure; Key System Applications: management and enterprise information systems; Building information systems; Managing information systems; Ethics and social impact of information systems.",
+    "sentence_count": 4
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.360",
+      "en_code": "CS 360",
+      "th_name": "หัวข้อเลือกสรรด้านวิศวกรรมซอฟต์แวร์",
+      "en_name": "Selected Topics in Software Engineering"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิศวกรรมซอฟต์แวร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in software engineering.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.361",
+      "en_code": "CS 361",
+      "th_name": "สถาปัตยกรรมซอฟต์แวร์บนคลาวด์",
+      "en_name": "Cloud-Based Software Architecting"
+    },
+    "content": "หลักการออกแบบสถาปัตยกรรมซอฟต์แวร์ที่อิงตามความต้องการเชิงธุรกิจ องค์ประกอบและบริการบนคลาวด์ คุณสมบัติของระบบที่มีสถาปัตยกรรมที่ดี (ความ พร้อมใช้งานที่เสถียรสูง ความทนทานต่อความเสียหาย ความน่าเชื่อถือ และ ความสามารถในการปรับขนาดได้) แนวการออกแบบที่ดี โครงสร้างพื้นฐานแบบโค้ด Architectural design principles based on business requirements, cloud- based components and services, well-architected system quality (high availability, fault tolerance, reliability and scalability), design best practices, infrastructure as a code.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.362",
+      "en_code": "CS 362",
+      "th_name": "การออกแบบซอฟต์แวร์และระบบ",
+      "en_name": "Software System and Design"
+    },
+    "content": "วิเคราะห์ความต้องการของระบบเพื่อออกแบบระบบ แนะนําแนวคิดพื้นฐานของการ ออกแบบสถาปัตยกรรมระบบและหลักการในการออกแบบซอฟต์แวร์โดยใช้รูปแบบ การออกแบบและลักษณะสถาปัตยกรรมผ่านการทําโครงงานแบบเป็นกลุ่ม เข้าใจ ประด็นที่กระทบการออกแบบและการตัดสินในออกแบบเพื่อรองรับประเด็นเหล่านั้น เช่น ประเด็นการออกแบบเพื่อรองรับประสิทธิภาพการทํางานของระบบ, การ ออกแบบเพื่อรองรับการใช้งานที่เพิ่มขึ้นของผู้ใช้ หรือการออกแบบที่คํานึงถึงความ ปลอดภัยของระบบ อธิบายรูปแบบของการออกแบบเพื่อให้ตอบโจทย์ประเด็นที่ กระทบการออกแบบ ฝึกฝนการวิเคราะห์และออกแบบผ่านการทําโครงงาน Analyze system requirements in order to perform system design. Introduce the basic concept of software architecture and principle of software design by applying design patterns and architectural styles through team-based project. Understand concerns impacting the design decisions such as performance, scalability and security. Explain design solutions to address those design concerns. Practice system analysis and design method through project.",
+    "sentence_count": 9
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.363",
+      "en_code": "CS 363",
+      "th_name": "โครงงานทางวิศวกรรมซอฟต์แวร์",
+      "en_name": "Software Engineering Project"
+    },
+    "content": "ฝึกปฏิบัติการพัฒนาซอฟต์แวร์ในรูปแบบของการทํางานเป็นทีมผ่านการพัฒนา แอพพลิเคชั่นจริง Wu เวปแอพพลิเคชัน หรือแอพพลิเคชั่นสําหรับอุปกรณ์พกพา เรียนรู้กระบวนการพัฒนาซอฟต์แวร์ผ่านการทํางานจริง: การพัฒนาซอฟต์แวร์แบบอ lad การเขียนเทสเพื่อเป็นหลักในการเขียนซอฟต์แวร์ การวิเคาะห์ความต้องการของ ผู้ใช้ การบริหารความต้องการ การทดสอบซอฟต์แวร์ การบริหารคุณภาพของ ซอฟต์แวร์ การวางแผนและความคุมแผนการทํางาน การออกแบบและสร้างระบบ มี ประสบการณ์การใช้เครื่องมือในภาคอุตสาหกรรมเพื่อสนับสนุนการทํางานร่วมกันเป็น ทีม Practice team-based software development through real application projects such as web application or mobile application. Learn by doing best practices of software development process: agile development, test driven development, user requirements analysis, requirement managements, software testing, quality management, project planning and monitoring, software design and constructions. Experience industrial collaboration tools in order to work as a team.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.364",
+      "en_code": "CS 364",
+      "th_name": "การพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพา",
+      "en_name": "Mobile Application Development"
+    },
+    "content": "ภาพรวมการพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพา แพลตฟอร์มของอุปกรณ์ WANT ข้อจํากัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สําหรับ อุปกรณ์ที่มีทรัพยากรจํากัด วัฏจักรของกิจกรรม ทรัพยากรของอุปกรณ์พกพาและ โปรแกรมประยุกต์ การออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย การ รองรับการเปลี่ยนแปลงขณะประมวลผล แนวคิดโดยรวม ปัญหาการออกแบบ และ ขั้นตอนการพัฒนาในทางปฏิบัติ Developing landscape of mobile applications, mobile platforms, the specific constraints and requirements of user interface design for limited-resource devices, activity life cycle, mobile and application resources, providing alternative resources, handling runtime changes, conceptual overview, design issues, and practical development issues.",
+    "sentence_count": 8
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.365",
+      "en_code": "CS 365",
+      "th_name": "กระบวนการและไปป์ไลน์เดฟออปส์",
+      "en_name": "DevOps Pipelines and Processes"
+    },
+    "content": "การจัดการวงจรชีวิตแอปพลิเคชัน กระบวนการรวบรวมซอฟต์แวร์และส่งมอบบริการ อย่างอัตโนมัติ การนําระบบขึ้นใช้งานจริงบนคลาวด์ เครื่องมือสําหรับเดฟออปส์ (เช่น การควบคุมเวอร์ชันของโค้ดด้วยกิท การเขียนสคริปต์ การทดสอบระบบอัตโนมัติ คอนเทนเนอร์ การสร้างซีไอซีดีไปป์ไลน์ การติดตามประสิทธิภาพ ค่าวัด และการ บันทึกข้อมูลระหว่างการทํางาน) Application lifecycle management, Continuous Integration/Continuous Delivery (CI/CD) processes, cloud deployment, DevOps tools (e.g. code version controV git, scripting, automated test, container, CI/CD pipeline, performance monitoring, metrics, and logging).",
+    "sentence_count": 10
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.366",
+      "en_code": "CS 366",
+      "th_name": "ไมโครเซอร์วิสและสถาปัตยกรรมแบบไร้เซิร์ฟเวอร์",
+      "en_name": "Microservices and Serverless Architectures"
+    },
+    "content": "แอปพลิเคชันที่รวมทุกส่วนไว้ด้วยกันและไมโครเซอร์วิส การประมวลผลแบบไร้ เซิร์ฟเวอร์ สถาปัตยกรรมแบบแยกส่วนด้วยการใช้คิวข้อความ เว็บเซอร์วิสและเอพีไอ การพิสูจน์ตัวตนและประเด็นทางด้านความปลอดภัย Monolithic applications and microservices, serverless computing, decoupled architecture with message queues, web services and API, authentication and security issues.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.367",
+      "en_code": "CS 367",
+      "th_name": "แนวคิดการพัฒนาเว็บบริการ",
+      "en_name": "Web Service Development Concepts"
+    },
+    "content": "แนวคิดและทฤษฎีเกี่ยวกับเว็บบริการ สถาปัตยกรรมเว็บบริการ มาตรฐานที่เกี่ยวข้อง ทางเว็บบริการ โปรโตคอลการรักษาความปลอดภัยของเว็บบริการ เทคโนโลยีที่ใช้ใน การพัฒนาเว็บบริการ การบูรณาการทฤษฎีกับการออกแบบพัฒนาเว็บบริการเพื่อใช้ งานจริงในทางธุรกิจ Basic concepts of web services, web service architecture and related standards, security issues and protocols for web services, industrial technologies relating to web service developments, applying theoretical concepts in designing and developing web services for businesses.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.368",
+      "en_code": "CS 368",
+      "th_name": "การเป็นผู้ประกอบการสําหรับผลิตภัณฑ์ดิจิทัล",
+      "en_name": "Entrepreneurship for Digital Product"
+    },
+    "content": "ศึกษากระบวนการของผู้ประกอบการโดยเน็นที่การพัฒนาและบริหารผลิตภัณฑ์ ดิจิทัล การสร้างแนวคิด ความคิดสร้างสรรค์ รูปแบบของการทําธุรกิจเริ่มต้น ฝึก ปฏิบัติกิจกรรมของผู้ประกอบการ การสร้างวิสัยทัศน์ของสินค้า การวิเคราะห์กรณี ธุรกิจ การวิเคราะห์โอกาสของผลิตภัณฑ์ การระบุตําแหน่งในตลาดของผลิตภัณฑ์ การออกแบบและพัฒนาผลิตภัณฑ์ Study of the entrepreneurial process focusing on the digital product development and management; ideation, innovation, startup models. Practice entrepreneurial activities: product vision creation, business case analysis, opportunities analysis, market position identification, digital product design and development.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.370",
+      "en_code": "CS 370",
+      "th_name": "หัวข้อเลือกสรรด้านระบบปัญญาประดิษฐ์",
+      "en_name": "Selected Topics in Artificial Intelligent Systems"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีทางด้าน ปัญญาประดิษฐ์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in artificial intelligent systems.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.371",
+      "en_code": "CS 371",
+      "th_name": "ปัญญาประดิษฐ์กับการประยุกต์",
+      "en_name": "Artificial Intelligence in Practice"
+    },
+    "content": "การให้เหตุผลเชิงสถิติ การให้เหตุผลแบบนอนโมโนโทนิก การแสดงความรู้แบบเฟรม การแสดงความรู้แบบกราฟมโนภาพ โครงข่ายแบบเบย์ โครงข่ายแบบมาร์คอฟ แบบจําลองความน่าจะเป็นเชิงสัมพันธ์ แบบจําลองฮิดเดนมาร์คอฟ และ ทฤษฎีการ ตัดสินใจ การพัฒนาระบบด้วยภาษาโปรแกรมทางด้านปัญญาประดิษฐ์ Probabilistic reasoning, non-monotonic reasoning, frame, conceptual graph, Bayesian networks, markov networks, relational probability models, hidden Markov models, decision theory, artificial intelligence programming.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.372",
+      "en_code": "CS 372",
+      "th_name": "การเรียนรู้ของเครื่อง",
+      "en_name": "Machine Learning"
+    },
+    "content": "ทฤษฎีการเรียนรู้ การเรียนรู้เชิงอุปนัยและนิรนัย การเรียนรู้เบย์อย่างง่าย ต้นไม้ ตัดสินใจ การเรียนรู้แบบมีผู้สอน การเรียนรู้แบบไม่มีผู้สอน การเรียนรู้แบบเสริมแรง ปัญหาการเข้ากันมากเกินไป การประเมินความถูกต้อง การประเมินประสิทธิภาพ และ ตัวอย่างการประยุกต์ใช้การเรียนรู้ของเครื่อง เช่น การทําเหมืองข้อมูล การ ควบคุมหุ่นยนต์ การนําทางแบบอัตโนมัติ และ ชีวสารสนเทศศาสตร์ Learning theory, inductive and deductive learning, naive bayesian learning, decision trees, supervised learning, unsupervised learning, reinforcement learning, overfitting problem, validation, performance evaluation, and applications of machine learning.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.373",
+      "en_code": "CS 373",
+      "th_name": "กลยุทธ์การค้นหาขั้นสูง",
+      "en_name": "Advanced Search Strategies"
+    },
+    "content": "ปริภูมิค้นหา การค้นหาเชิงการจัดกลุ่ม การค้นหาแบบฮิวริสติก การค้นหาแบบสุ่ม ต้นไม้ค้นหา ขั้นตอนวิธีการจําลองการอบเหนียว ขั้นตอนวิธีเชิงวิวัฒน์ ปัญหาโลคอ ลออฟติมัม ปัญหาการลู่เข้าสู่เป้าหมายได้ช้า การประเมินประสิทธิภาพของคําตอบ ตัวอย่างของการประยุกต์ใช้ Search space, combinatorial search, heuristic search, stochastic search, search tree, simulated annealing algorithm, evolutionary algorithm, local optimum problem, ridge and plateau problem, Performance evaluation, example of applications.",
+    "sentence_count": 10
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.374",
+      "en_code": "CS 374",
+      "th_name": "การประมวลภาษาธรรมชาติ",
+      "en_name": "Natural Language Processing"
+    },
+    "content": "รู้จักกับภาษาธรรมชาติและข้อจํากัดในการประมวลผล การทําให้เป็นมาตรฐานของ ข้อความ การวัดระยะห่างระหว่างข้อความ นิพจน์ปรกติ การติดประเภทชนิดคํา แบบจําลองทางภาษา เวกเตอร์ความหมายและการฝัง การวิเคราะห์ความรู้สึก ไวยากรณ์หน่วยประกอบ การแปลด้วยเครื่อง การจําแนกข้อความ ความหมายแอบ แฝงและเวิร์ดเน็ต Introduction to natural language and its limitation in processing, text normalization, text distance measurement, regular expression, part of speech tagging, language model, vector semantics and embedding, sentiment classification, constituency grammars, machine translation, text classification, word senses and WordNet.",
+    "sentence_count": 6
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.381",
+      "en_code": "CS 381",
+      "th_name": "การประมวลภาพดิจิทัล",
+      "en_name": "Digital Image Processing"
+    },
+    "content": "ความรู้พื้นฐานเกี่ยวกับภาพดิจิทัล การแทนค่าข้อมูลสี การแปลงข้อมูลภาพ การ ปรับปรุงคุณภาพของภาพ ตัวกรองในโดเมนพื้นที่และโดเมนความถี่ การแบ่งภาพเป็น หลายส่วนอย่างมีความหมาย ไบนารีมอร์โฟโลยี การแทนค่าและการบรรยายลักษณะ ข้อมูลภาพ การประยุกต์ใช้ข้อมูลภาพดิจิทัล Digital image fundamentals, color models, image transform, image enhancement, spatial-domain and frequency-domain filters, image segmentation, binary morphology, image representation and description, applications of digital image processing.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.382",
+      "en_code": "CS 382",
+      "th_name": "ทัศนศาสตร์คอมพิวเตอร์เบื้องต้น",
+      "en_name": "Introduction to Computer Vision"
+    },
+    "content": "การได้มาซึ่งภาพดิจิทัล การประมวลผลก่อน การตรวจหาวัตถุในภาพ การหา คุณลักษณะวัตถุ การรู้จําวัตถุ การวิเคราะห์การเคลื่อนไหว การประยุกต์ใช้ทัศน ศาสตร์คอมพิวเตอร์ Image acquisition, image preprocessing, object detection, feature extraction, object recognition, motion analysis, applications for computer vision.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.384",
+      "en_code": "CS 384",
+      "th_name": "การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์",
+      "en_name": "Human - Computer Interaction"
+    },
+    "content": "ตระหนักถึงความสําคัญการศึกษาปฏิสัมพันธ์ระหว่างคอมพิวเตอร์และมนุษย์มีผลต่อ การพัฒนาระบบคอมพิวเตอร์ให้ยอมรับได้และมีความสามารถใช้งานได้ ศึกษาบริบท ที่สําคัญต่อการปฏิสัมพันธ์ระหว่างคอมพิวเตอร์และมนุษย์ กระบวนการพัฒนาระบบ แบบผู้ใช้เป็นศูนย์กลาง การประเมินและมาตรวัดความสามารถใช้งานได้ ปัจจัยทาง มนุษย์ที่เกี่ยวข้องกับการประมวลผลสารสนเทศของมนุษย์ และ กฎเกณฑ์และ หลักการที่ใช้ตลอดจน ข้อผิดพลาดที่เกิดขึ้นบ่อยๆ ในการออกแบบส่วนต่อประสาน Importance of human-computer interaction (HCI) to the development of acceptable and usable systems, context for HCI, human-information processing model applicable to HCI, evaluation, measure of usability, and user interface principle and guidelines.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.385",
+      "en_code": "CS 385",
+      "th_name": "โครงงานทางการออกแบบผลิตภัณฑ์และบริการด้านดิจิทัล",
+      "en_name": "Digital Product and Service Design Project"
+    },
+    "content": "แนวการปฏิบัติและความเข้าใจแบบองค์รวมเกี่ยวกับการออกแบบผลิตภัณฑ์และ บริการดิจิทัล ทําความเข้าใจผู้มีส่วนได้ส่วนเสีย การประยุกต์วิธีการออกแบบที่เน้น มนุษย์เป็นศูนย์กลาง iu การคิดเชิงออกแบบ การทําแผนที่การเดินทางของผู้ใช้ พิมพ์เขียวบริการ เพื่อจัดลําดับความสําคัญและออกแบบผลิตภัณฑ์ การวางแผน Minimal Viable Product (MVP) ตามแนวทางการพัฒนาผลิตภัณฑ์แบบลืน Practical concepts and holistic understanding of digital product and service design, understanding stakeholders, apply human-centered design approach, such as design thinking, user journey mapping, service blueprint, to prioritize and design products, planning Minimal Viable Product (MVP) based on lean product development approach.",
+    "sentence_count": 5
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.390",
+      "en_code": "CS 390",
+      "th_name": "หัวข้อเลือกสรรด้านการวิเคราะห์ข้อมูลมัลติมีเดีย",
+      "en_name": "Selected Topics in Multimedia Content Analysis"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้างานวิจัยและเทคโนโลยีด้านการวิเคราะห์ข้อมูล มัลติมีเดียที่เปลี่ยนแปลงตามเทคโนโลยี Selected Topic on current research and development in multimedia content analysis.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.403",
+      "en_code": "CS 403",
+      "th_name": "โครงงานพิเศษ 2",
+      "en_name": "Special Projects 2"
+    },
+    "content": "ศึกษาค้นคว้าโครงงานที่ได้เสนอในลักษณะวิชา คพ.303 ให้ลึกซึ้งกว้างขวางยิ่งขึ้น เขียนรายงานและเสนอต่อคณะกรรมการ จัดพิมพ์เป็นรูปเล่ม Study the Projects proposed in CS 303 in details, implement the proposed idea, write papers and present results to the committee.",
+    "sentence_count": 3
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.404",
+      "en_code": "CS 404",
+      "th_name": "สหกิจศึกษา 2",
+      "en_name": "Co-operative Education 2"
+    },
+    "content": "การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจาก สาขาวิชา โดยนักศึกษาต้องนําความรู้ทางวิชาการที่ได้เรียนไปประยุกต์ใช้และฝึก ทักษะในภาวะแวดล้อมการทํางานจริง ภายใต้การกํากับดูแลของสถานประกอบการ นั้น โดยต้องแสดงงานที่ได้รับมอบหมายอย่างชัดเจน พร้อมทั้งแนวคิดที่ใช้ในการ ออกแบบ พัฒนาและประยุกต์ เมื่อเสร็จสิ้นโครงงานแล้วต้องจัดส่งผลงานในรูปแบบ ของรายงานตามที่สาขาวิชากําหนด Supervised practical training on the given assignments from authorized body from the faculty. Student must show the capability in implementation of knowledge and skill in the actual working environmemt. Written report of design, development, and implementation must be submitted the end of practical period.",
+    "sentence_count": 7
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.420",
+      "en_code": "CS 420",
+      "th_name": "หัวข้อเลือกสรรด้านสถาปัตยกรรมคอมพิวเตอร์",
+      "en_name": "Selected Topics in Computer Architecture"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของสถาปัตยกรรม คอมทพิวเตอร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in computer architecture.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.430",
+      "en_code": "CS 430",
+      "th_name": "หัวข้อเลือกสรรด้านคอมพิวเตอร์เครือข่าย",
+      "en_name": "Selected Topics in Net-Centric Computing"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบเครือข่าย ที่ เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in computer and telecommunication networking.",
+    "sentence_count": 2
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.440",
+      "en_code": "CS 440",
+      "th_name": "หัวข้อเลือกสรรด้านวิทยาการข้อมูล",
+      "en_name": "Selected Topics in Data Science"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิทยาการข้อมูลที่ เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี The purpose of Selected Topics in Data Science being a topics course is to respond to new researches and technologies in the rapidly evolving fields of Data Science.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.450",
+      "en_code": "CS 450",
+      "th_name": "หัวข้อเลือกสรรด้านระบบสารสนเทศ",
+      "en_name": "Selected Topics in Information Systems"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบสารสนเทศ ทิ เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in information systems.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.480",
+      "en_code": "CS 480",
+      "th_name": "หัวข้อเลือกสรรด้านการปฏิสัมพันธ์ระหว่างมนุษย์และ",
+      "en_name": "Selected Topics in Human-Computer Interaction"
+    },
+    "content": "คอมพิวเตอร์ หัวข้อเลือกสรรจากความก้าวหน้างานวิจัยและเทคโนโลยีด้านการปฏิสัมพันธ์ระหว่าง มนุษย์และคอมพิวเตอร์ Seminar on current research and development in human-computer interaction.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "คพ.490",
+      "en_code": "CS 490",
+      "th_name": "หัวข้อเลือกสรรด้านคอมพิวเตอร์กราฟิก",
+      "en_name": "Selected Topics in Computer Graphics"
+    },
+    "content": "หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของคอมพิวเตอร์กราฟิก ทีเปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Seminar on current research and development in computer graphics.",
+    "sentence_count": 1
+  },
+  {
+    "metadata": {
+      "th_code": "สษ.395",
+      "en_code": "EL 395",
+      "th_name": "ภาษาอังกฤษเชิงวิชาการและทักษะการศึกษา 2",
+      "en_name": "Academic English and Study Skills 2"
+    },
+    "content": "การศึกษาทักษะภาษาอังกฤษทางวิชาการระดับสูง การฝึกเขียนเรียงความทาง วิชาการที่หลากหลาย การพัฒนาทักษะที่จําเป็นสําหรับการทําวิจัยเป็นภาษาอังกฤษ เชิงวิชาการและการนําเสนอผลงานวิจัย Study of academic English skills at an advanced level. Practice of writing different types of academic essays. Development of skills required for conducting research and reporting results in English.",
+    "sentence_count": 5
+  }
+]
