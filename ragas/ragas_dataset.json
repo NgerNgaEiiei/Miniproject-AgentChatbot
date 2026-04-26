@@ -1,35 +1,126 @@
 [
   {
-    "question": "อยากเรียนเรื่อง OOP ต้องลงวิชาอะไร?",
-    "answer": "หากคุณต้องการเรียนรู้เรื่อง OOP (Object-Oriented Programming) หรือการเขียนโปรแกรมเชิงวัตถุ คุณจะต้องเรียนวิชา คพ.111 แนวคิดเชิงวัตถุ (CS111 Object-Oriented Concepts)\nวิชาบังคับก่อน: คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ หรือ คพ.103 (ถ้าเคยศึกษาแล้ว)\nวิชานี้จะช่วยพัฒนาทักษะการวิเคราะห์และการแก้ปัญหาด้วยแนวคิดเชิงวัตถุ รวมถึงการบูรณาการแนวคิดและแนวทางเชิงปฏิบัติที่ทันสมัยในวัฏจักรการพัฒนาซอฟต์แวร์ (SDLC) นอกจากนี้ คุณจะได้เรียนรู้หลักการพื้นฐานในการเขียนโปรแกรมเชิงวัตถุตามที่วิเคราะห์และออกแบบไว้ และแนวทางในการทวนสอบความสอดคล้องระหว่างแบบและซอร์สโค้ด\nดังนั้น ลำดับการเรียนที่แนะนำคือ:\n1. เรียน คพ.102 (หรือ คพ.103) ก่อน\n2. จากนั้นเรียน คพ.111 เพื่อเรียนรู้ OOP\nการเรียนวิชาเหล่านี้จะช่วยให้คุณเข้าใจแนวคิดและหลักการของการเขียนโปรแกรมเชิงวัตถุอย่างมั่นคง และสามารถนำไปประยุกต์ใช้ในการพัฒนาซอฟต์แวร์ได้อย่างมีประสิทธิภาพ",
+    "question": "หลักสูตรมีวิชาทั้งหมดกี่วิชา",
+    "answer": "หลักสูตรมีวิชาทั้งหมด 103 วิชา",
     "contexts": [
-      "คพ.111 แนวคิดเชิงวัตถุ ( CS111 Object-Oriented Concepts ) วิชาบังคับก่อน: คพ.102 หรือเคยศึกษา คพ.103 พัฒนาทักษะการวิเคราะห์และการแก้ปัญหาด้วยแนวคิดเชิงวัตถุ บูรณาการแนวคิดและแนวทางเชิงปฏิบัติที่ทันสมัยในวัฏจักรการพัฒนาซอฟต์แวร์ หลักการพื้นฐานในการเขียนโปรแกรมเชิงวัตถุตามที่วิเคราะห์และออกแบบไว้ แนวทางในการทวนสอบความสอดคล้องระหว่างแบบและซอร์สโค้ด Prerequisite: Have taken CS102 or Have taken CS103 Developing of analytical and problem-solving skills through object-oriented paradigm. Integrating of conceptual and state-of-the-art practical approaches in software development life cycle (SDLC), object-oriented design techniques and tools, object-oriented programming based on the design, consistency verification between the design and source code."
+      "ข้อมูลจากระบบ (count_courses): total_courses = 103"
     ],
-    "ground_truth": "วิชาที่สอนเรื่อง OOP คือ คพ.111 แนวคิดเชิงวัตถุ (CS111 Object-Oriented Concepts) โดยมีวิชาบังคับก่อนคือ คพ.102 หรือ คพ.103",
-    "retrieved_chunk_indices": [
-      2
-    ]
+    "ground_truth": "หลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยธรรมศาสตร์ มีวิชาทั้งหมด 103 วิชา"
   },
   {
-    "question": "วิชาไหนสอนเรื่อง sorting และ searching?",
-    "answer": "วิชาที่สอนเรื่อง sorting และ searching คือ คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี (CS216 Data Structures and Algorithms) ซึ่งมีเนื้อหาเกี่ยวกับการวิเคราะห์ความต้องการด้านเวลาและหน่วยความจำในการค้นหา (searching) และขั้นตอนวิธีเกี่ยวกับการค้นหาและการเรียงลำดับ (sorting) รวมถึงการวิเคราะห์ความซับซ้อนของขั้นตอนวิธีต่างๆ",
+    "question": "วิชา major required ของ CIS มีกี่วิชา",
+    "answer": "วิชา major required ของหลักสูตร CIS มีทั้งหมด 11 วิชา",
     "contexts": [
-      "คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี ( CS216 Data Structures and Algorithms ) วิชาบังคับก่อน: เคยศึกษา คพ.111 การวิเคราะห์เวลาดำเนินงานและความซับซ้อนของขั้นตอนวิธี โครงสร้างข้อมูลแบบต่าง ๆ อาร์เรย์ ลิงก์ลิสต์ สแต็ก คิว ทรี แฮช กราฟ ไบนารีฮีป การวิเคราะห์ความต้องการด้านเวลา และหน่วยความจำในการค้นหา ขั้นตอนวิธีเกี่ยวกับการค้นหาและการเรียงลำดับ การแก้ปัญหาแบบบรูทฟอร์ซ การแบ่งเข้ายึด ขั้นตอนวิธีการแบบละโมบ การชดเชยกันระหว่างเวลากับเนื้อที่ของการคำนวณ Prerequisite: Have taken CS111 Analysis of running time and complexity of the algorithms, data structures: arrays, linked lists, stacks, trees, hash, graph, binary heap, analysis of running time and memory requirements in searching, algorithms for searching and sorting, algorithm techniques: brute force, divide-and-conquer, greedy algorithms, space and time trade-offs."
+      "ข้อมูลจากระบบ (count_courses): major = CIS, course_type = major_required, total_courses = 11"
     ],
-    "ground_truth": "วิชาที่สอนเรื่อง sorting และ searching คือ คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี (CS216 Data Structures and Algorithms)",
-    "retrieved_chunk_indices": [
-      3
-    ]
+    "ground_truth": "วิชา major required ของสาขา CIS (วิทยาการคอมพิวเตอร์และสารสนเทศ) มีทั้งหมด 11 วิชา"
   },
   {
-    "question": "ถ้าอยากเรียนเรื่อง recursive ต้องลงวิชาอะไร?",
-    "answer": "ถ้าอยากเรียนเรื่อง recursive ต้องลงวิชา คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ (CS102 Problem Solving Basics and Computer Programming) เนื่องจากวิชานี้มีเนื้อหาเกี่ยวกับฟังก์ชันเวียนเกิด (recursive functions) ซึ่งเป็นพื้นฐานสำคัญในการเข้าใจและใช้งาน recursion ได้อย่างถูกต้องและมีประสิทธิภาพ",
+    "question": "วิชาที่ไม่มี prerequisite มีกี่วิชา",
+    "answer": "วิชาที่ไม่มี prerequisite มีทั้งหมด 32 วิชา",
     "contexts": [
-      "คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ ( CS102 Problem Solving Basics and Computer Programming ) การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging."
+      "ข้อมูลจากระบบ (count_courses): filter = no_prerequisite, total_courses = 32"
     ],
-    "ground_truth": "วิชาที่สอนเรื่อง recursive (ฟังก์ชันเวียนเกิด) คือ คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ (CS102 Problem Solving Basics and Computer Programming)",
-    "retrieved_chunk_indices": [
-      1
-    ]
+    "ground_truth": "วิชาในหลักสูตรที่ไม่มีวิชาบังคับก่อน (no prerequisite) มีทั้งหมด 32 วิชา"
+  },
+  {
+    "question": "CS271 มีกี่หน่วยกิต",
+    "answer": "3 หน่วยกิต",
+    "contexts": [
+      "ข้อมูลจากระบบ (get_course_detail): code_en = CS 271, code_th = คพ.271, name_th = ปัญญาประดิษฐ์เบื้องต้น, name_en = Introduction to Artificial Intelligence, credits = 3, lecture = 3, lab = 0, self_study = 6"
+    ],
+    "ground_truth": "CS 271 (คพ.271 ปัญญาประดิษฐ์เบื้องต้น / Introduction to Artificial Intelligence) มี 3 หน่วยกิต"
+  },
+  {
+    "question": "คพ.216 คือวิชาอะไร",
+    "answer": "คพ.216 คือวิชา Data Structures and Algorithms หรือ โครงสร้างข้อมูลและขั้นตอนวิธี",
+    "contexts": [
+      "ข้อมูลจากระบบ (get_course_detail): code_en = CS 216, code_th = คพ.216, name_th = โครงสร้างข้อมูลและขั้นตอนวิธี, name_en = Data Structures and Algorithms, credits = 3, prerequisites = [{code: CS 111, name: แนวคิดเชิงวัตถุ}]"
+    ],
+    "ground_truth": "คพ.216 คือ CS 216 Data Structures and Algorithms (โครงสร้างข้อมูลและขั้นตอนวิธี) มี 3 หน่วยกิต วิชาบังคับก่อนคือ CS 111 (แนวคิดเชิงวัตถุ)"
+  },
+  {
+    "question": "CS372 มีวิชาบังคับก่อนไหม",
+    "answer": "วิชาบังคับก่อนสำหรับ CS372 คือ CS271 (ปัญญาประดิษฐ์เบื้องต้น)",
+    "contexts": [
+      "ข้อมูลจากระบบ (check_prerequisite): course = CS 372, eligible = false (completed_courses ว่าง), missing = [{code: CS 271, name: ปัญญาประดิษฐ์เบื้องต้น}]"
+    ],
+    "ground_truth": "CS 372 มีวิชาบังคับก่อนคือ CS 271 (คพ.271 ปัญญาประดิษฐ์เบื้องต้น)"
+  },
+  {
+    "question": "CS111 ลงได้ไหม ถ้ายังไม่ผ่านวิชาอะไรเลย",
+    "answer": "ไม่สามารถลงวิชา CS111 ได้ ถ้ายังไม่ผ่านวิชา CS102 หรือ CS103 เนื่องจากวิชา CS111 ต้องการให้ผ่านวิชาใดวิชาหนึ่งในสองวิชานี้ก่อน",
+    "contexts": [
+      "ข้อมูลจากระบบ (check_prerequisite): course = CS 111, eligible = false, missing = [{or_group: [CS 102, CS 103], note: ต้องผ่านอย่างน้อย 1 วิชาใน: CS 102, CS 103}]"
+    ],
+    "ground_truth": "ไม่สามารถลง CS 111 ได้ เนื่องจากต้องผ่าน CS 102 (พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์) หรือ CS 103 อย่างน้อย 1 วิชาก่อน"
+  },
+  {
+    "question": "ฉันผ่าน CS101 และ CS111 แล้ว ลง CS216 ได้ไหม",
+    "answer": "ได้ คุณสามารถลงทะเบียนเรียนวิชา CS216 ได้ เพราะคุณได้ผ่านวิชา CS101 และ CS111 แล้ว ซึ่งเป็นเงื่อนไขที่จำเป็นสำหรับการลงทะเบียนเรียนวิชา CS216",
+    "contexts": [
+      "ข้อมูลจากระบบ (check_prerequisite): course = CS 216, completed_courses = [CS 101, CS 111], eligible = true, missing = [], prerequisites ของ CS 216 คือ CS 111 (แนวคิดเชิงวัตถุ) ซึ่งผ่านแล้ว"
+    ],
+    "ground_truth": "สามารถลง CS 216 ได้ เนื่องจากผ่าน CS 111 (แนวคิดเชิงวัตถุ) แล้ว ซึ่งเป็นวิชาบังคับก่อนของ CS 216"
+  },
+  {
+    "question": "CS251 ลงได้ไหม ถ้าผ่านแค่ CS216",
+    "answer": "ได้ เพราะผ่านวิชา CS216 ซึ่งเป็นหนึ่งในวิชาที่ต้องผ่านอย่างน้อย 1 วิชา (CS213 หรือ CS216) ตามเงื่อนไขของวิชา CS251",
+    "contexts": [
+      "ข้อมูลจากระบบ (check_prerequisite): course = CS 251, completed_courses = [CS 216], eligible = true, missing = [], เงื่อนไข OR: ต้องผ่าน CS 213 หรือ CS 216 อย่างน้อย 1 วิชา ซึ่งผ่าน CS 216 แล้ว"
+    ],
+    "ground_truth": "สามารถลง CS 251 ได้ เนื่องจากเงื่อนไขคือต้องผ่าน CS 213 หรือ CS 216 อย่างน้อย 1 วิชา (OR condition) และผ่าน CS 216 แล้ว"
+  },
+  {
+    "question": "อยากเรียน CS372 ต้องเรียนอะไรมาก่อนบ้าง",
+    "answer": "ต้องเรียน CS271 ก่อน",
+    "contexts": [
+      "ข้อมูลจากระบบ (get_learning_path): target = CS 372, learning_path = [CS 271, CS 372]"
+    ],
+    "ground_truth": "เส้นทางการเรียนไปถึง CS 372 คือ CS 271 (ปัญญาประดิษฐ์เบื้องต้น) → CS 372 โดย CS 271 ต้องผ่าน CS 213 หรือ CS 216 ก่อน"
+  },
+  {
+    "question": "เส้นทางการเรียนไปถึง CS251 คืออะไร",
+    "answer": "เส้นทางการเรียนไปถึง CS251 คือ: CS 102 → CS 111 → CS 213 → CS 251",
+    "contexts": [
+      "ข้อมูลจากระบบ (get_learning_path): target = CS 251, learning_path = [CS 102, CS 111, CS 213, CS 251]"
+    ],
+    "ground_truth": "เส้นทางการเรียนไปถึง CS 251 คือ CS 102 → CS 111 → CS 213 → CS 251"
+  },
+  {
+    "question": "สาขา CIS ปีที่ 1 เรียนวิชาอะไรบ้าง",
+    "answer": "วิชาที่เรียนในปีที่ 1 สาขา CIS มีดังนี้ ภาค 1: CS 100 การพัฒนาเว็บแอปพลิเคชันเบื้องต้น, CS 101 โครงสร้างแบบไม่ต่อเนื่อง, CS 102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์, EL 105 ทักษะการสื่อสารทางภาษาอังกฤษ, ST 216 สถิติสำหรับสังคมศาสตร์ 1, TU 100 พลเมืองกับการลงมือแก้ปัญหา, TU 103 ชีวิตกับความยั่งยืน ภาค 2: CS 111 แนวคิดเชิงวัตถุ, MA 211 แคลคูลัส 1, TU 101 โลก อาเซียน และไทย, TU 104 การคิด อ่าน และเขียนอย่างมีวิจารณญาณ, TU 106 ความคิดสร้างสรรค์และการสื่อสาร, TU 109 นวัตกรรมกับกระบวนคิดผู้ประกอบการ",
+    "contexts": [
+      "ข้อมูลจากระบบ (get_study_plan): major = CIS, year = 1, track = all, courses = CS 100, CS 101, CS 102, EL 105, ST 216, TU 100, TU 103 (ภาค 1), CS 111, MA 211, TU 101, TU 104, TU 106, TU 109 (ภาค 2)"
+    ],
+    "ground_truth": "สาขา CIS ปีที่ 1 ภาคเรียนที่ 1: CS 100, CS 101, CS 102, EL 105, ST 216, TU 100, TU 103 และภาคเรียนที่ 2: CS 111, MA 211, TU 101, TU 104, TU 106, TU 109"
+  },
+  {
+    "question": "แผนการเรียนสาขา ACS ปีที่ 3 แบบ project มีวิชาอะไรบ้าง",
+    "answer": "แผนการเรียนสาขา ACS ปีที่ 3 แบบ project ภาคเรียนที่ 1: CS 263, CS 264, CS 301, CS 361, CS 364 ภาคเรียนที่ 2: CS 303, CS 305, CS 362, CS 363, CS 367",
+    "contexts": [
+      "ข้อมูลจากระบบ (get_study_plan): major = ACS, year = 3, track = project, semester 1: CS 263, CS 264, CS 301, CS 361, CS 364, semester 2: CS 303, CS 305, CS 362, CS 363, CS 367"
+    ],
+    "ground_truth": "สาขา ACS ปีที่ 3 แบบ project ภาคเรียนที่ 1: CS 263 (การกำหนดความต้องการทางซอฟต์แวร์), CS 264, CS 301, CS 361, CS 364 และภาคเรียนที่ 2: CS 303 (โครงงานพิเศษ 1), CS 305, CS 362, CS 363, CS 367"
+  },
+  {
+    "question": "อยากเรียนเรื่อง OOP ต้องลงวิชาอะไร",
+    "answer": "ไม่มีวิชาที่ระบุชัดเจนว่าเกี่ยวกับ OOP ในเอกสารหลักสูตรที่ให้มา",
+    "contexts": [
+      "[CS 304 | สหกิจศึกษา 1] การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจากสาขาวิชา",
+      "[CS 404 | สหกิจศึกษา 2] การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจากสาขาวิชา",
+      "[CS 303 | โครงงานพิเศษ 1] โครงงานการศึกษาจะกำหนดหรือได้รับอนุมัติจากสาขาวิชา"
+    ],
+    "ground_truth": "วิชาที่สอนเรื่อง OOP คือ คพ.111 แนวคิดเชิงวัตถุ (CS 111 Object-Oriented Concepts) มีวิชาบังคับก่อนคือ CS 102 หรือ CS 103"
+  },
+  {
+    "question": "วิชาไหนสอนเรื่อง sorting และ searching",
+    "answer": "วิชาที่สอนเรื่อง sorting และ searching คือ CS 217 การออกแบบและวิเคราะห์ขั้นตอนวิธี",
+    "contexts": [
+      "[CS 353 | การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ] ทฤษฎีและเทคนิคในการจัดทำดรรชนีและการค้นคืนสารสนเทศด้วยระบบคอมพิวเตอร์",
+      "[CS 373 | กลยุทธ์การค้นหาขั้นสูง] ปริภูมิค้นหา การค้นหาเชิงการจัดกลุ่ม การค้นหาแบบฮิวริสติก",
+      "[CS 217 | การออกแบบและวิเคราะห์ขั้นตอนวิธี] เทคนิคต่างๆ ที่ใช้ในการออกแบบและวิเคราะห์ขั้นตอนวิธี Study the topics of sorting, searching, Fourier transform, randomized algorithms"
+    ],
+    "ground_truth": "วิชาที่สอนเรื่อง sorting และ searching คือ คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี (CS 216 Data Structures and Algorithms) ซึ่งมีเนื้อหาเกี่ยวกับขั้นตอนวิธีการค้นหาและการเรียงลำดับโดยตรง"
   }
 ]
