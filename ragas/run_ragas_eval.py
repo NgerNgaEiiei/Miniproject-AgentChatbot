@@ -35,7 +35,7 @@ OLLAMA_BASE_URL = "http://localhost:11434"
 # ---- สร้าง LLM และ embeddings ----
 llm_judge = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash", 
-    google_api_key="AIzaSyCPuX_PletFlIA--O_VtMM57zq6ygIXNYA"
+    google_api_key="#"
 )
 llm = LangchainLLMWrapper(llm_judge)
 hf_embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
