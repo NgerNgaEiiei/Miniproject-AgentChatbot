@@ -1,0 +1,1274 @@
+{
+  "CS 100": {
+    "th_code": "คพ.100",
+    "en_code": "CS 100",
+    "th_name": "การพัฒนาเว็บแอปพลิเคชันเบื้องต้น",
+    "en_name": "Basic Web Development",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 101": {
+    "th_code": "คพ.101",
+    "en_code": "CS 101",
+    "th_name": "โครงสร้างแบบไม่ต่อเนื่อง",
+    "en_name": "Discrete Structures",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 102": {
+    "th_code": "คพ.102",
+    "en_code": "CS 102",
+    "th_name": "พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์",
+    "en_name": "Problem Solving Basics and Computer Programming",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 103": {
+    "th_code": "คพ.103",
+    "en_code": "CS 103",
+    "th_name": "การโปรแกรมคอมพิวเตอร์เบื้องต้น",
+    "en_name": "Introduction to Computer Programming",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 104": {
+    "th_code": "คพ.104",
+    "en_code": "CS 104",
+    "th_name": "การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน",
+    "en_name": "Introduction to Computer Programming using Python",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 111": {
+    "th_code": "คพ.111",
+    "en_code": "CS 111",
+    "th_name": "แนวคิดเชิงวัตถุ",
+    "en_name": "Object-Oriented Concepts",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 102",
+      "CS 103"
+    ]
+  },
+  "CS 140": {
+    "th_code": "คพ.140",
+    "en_code": "CS 140",
+    "th_name": "การวิเคราะห์ข้อมูลเชิงสํารวจและแดชบอร์ดแบบไร้โค้ด",
+    "en_name": "No-Code Exploratory Data Analysis and Dashboard",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 180": {
+    "th_code": "คพ.180",
+    "en_code": "CS 180",
+    "th_name": "ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น",
+    "en_name": "Introduction to User Interface and User Experience",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 213": {
+    "th_code": "คพ.213",
+    "en_code": "CS 213",
+    "th_name": "โครงสร้างข้อมูล",
+    "en_name": "Data Structures",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  "CS 216": {
+    "th_code": "คพ.216",
+    "en_code": "CS 216",
+    "th_name": "โครงสร้างข้อมูลและขั้นตอนวิธี",
+    "en_name": "Data Structures and Algorithms",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  "CS 217": {
+    "th_code": "คพ.217",
+    "en_code": "CS 217",
+    "th_name": "การออกแบบและวิเคราะห์ขั้นตอนวิธี",
+    "en_name": "Design and Analysis of Algorithms",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 213"
+    ]
+  },
+  "CS 221": {
+    "th_code": "คพ.221",
+    "en_code": "CS 221",
+    "th_name": "โครงสร้างและระบบคอมพิวเตอร์เบื้องต้น",
+    "en_name": "Introduction to Computer System and Organization",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 101"
+    ]
+  },
+  "CS 222": {
+    "th_code": "คพ.222",
+    "en_code": "CS 222",
+    "th_name": "ระบบปฏิบัติการ",
+    "en_name": "Operating Systems",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 221"
+    ]
+  },
+  "CS 223": {
+    "th_code": "คพ.223",
+    "en_code": "CS 223",
+    "th_name": "เทคโนโลยีจําลองสภาพแวดล้อมเสมือน",
+    "en_name": "Virtualization Technology",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 222",
+      "CS 233"
+    ]
+  },
+  "CS 224": {
+    "th_code": "คพ.224",
+    "en_code": "CS 224",
+    "th_name": "การดูแลและติดตามประสิทธิภาพระบบปฏิบัติการลีนุกซ์",
+    "en_name": "Linux Administration and Performance Monitoring",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 222"
+    ]
+  },
+  "CS 232": {
+    "th_code": "คพ.232",
+    "en_code": "CS 232",
+    "th_name": "เทคโนโลยีกลุ่มเมฆเบื้องต้น",
+    "en_name": "Introduction to Cloud Computing Technology",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 222",
+      "CS 233"
+    ]
+  },
+  "CS 233": {
+    "th_code": "คพ.233",
+    "en_code": "CS 233",
+    "th_name": "สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ",
+    "en_name": "Computer Architecture and Operating Systems",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 101"
+    ]
+  },
+  "CS 234": {
+    "th_code": "คพ.234",
+    "en_code": "CS 234",
+    "th_name": "เครือข่ายคอมพิวเตอร์และความปลอดภัยทางไซเบอร์",
+    "en_name": "Computer Network and Cyber-Security",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 233"
+    ]
+  },
+  "CS 240": {
+    "th_code": "คพ.240",
+    "en_code": "CS 240",
+    "th_name": "หลักการวิทยาการข้อมูล",
+    "en_name": "Principles of Data Science",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 241": {
+    "th_code": "คพ.241",
+    "en_code": "CS 241",
+    "th_name": "ภาษาโปรแกรมและกรอบความคิด",
+    "en_name": "Programming Languages and Paradigms",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  "CS 242": {
+    "th_code": "คพ.242",
+    "en_code": "CS 242",
+    "th_name": "ภาษาไพทอนและการประยุกต์",
+    "en_name": "Python Programming and Applications",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 240"
+    ]
+  },
+  "CS 246": {
+    "th_code": "คพ.246",
+    "en_code": "CS 246",
+    "th_name": "การแสดงข้อมูล",
+    "en_name": "Data Visualization",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 240",
+      "CS 240"
+    ]
+  },
+  "CS 251": {
+    "th_code": "คพ.251",
+    "en_code": "CS 251",
+    "th_name": "ระบบฐานข้อมูล 1",
+    "en_name": "Database Systems 1",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 213",
+      "CS 216"
+    ]
+  },
+  "CS 255": {
+    "th_code": "คพ.255",
+    "en_code": "CS 255",
+    "th_name": "การเขียนโปรแกรมสําหรับธุรกิจ",
+    "en_name": "Computer Programming for Business",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 102",
+      "CS 103"
+    ]
+  },
+  "CS 261": {
+    "th_code": "คพ.261",
+    "en_code": "CS 261",
+    "th_name": "วิศวกรรมซอฟต์แวร์เบื้องต้น",
+    "en_name": "Introduction to Software Engineering",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  "CS 262": {
+    "th_code": "คพ.262",
+    "en_code": "CS 262",
+    "th_name": "การทดสอบซอฟต์แวร์เบื้องต้น",
+    "en_name": "Introduction to Software Testing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  "CS 263": {
+    "th_code": "คพ.263",
+    "en_code": "CS 263",
+    "th_name": "การกําหนดความต้องการทางซอฟต์แวร์",
+    "en_name": "Software Requirement Specification",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 261"
+    ]
+  },
+  "CS 264": {
+    "th_code": "คพ.264",
+    "en_code": "CS 264",
+    "th_name": "ความปลอดภัยทางซอฟต์แวร์และความเป็นส่วนตัวของ",
+    "en_name": "Software Security and Data Privacy",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 222",
+      "CS 233"
+    ]
+  },
+  "CS 265": {
+    "th_code": "คพ.265",
+    "en_code": "CS 265",
+    "th_name": "การพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพาเบื้องต้น",
+    "en_name": "Basic Mobile Development",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 271": {
+    "th_code": "คพ.271",
+    "en_code": "CS 271",
+    "th_name": "ปัญญาประดิษฐ์เบื้องต้น",
+    "en_name": "Artificial Intelligence Fundamentals",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 213",
+      "CS 216"
+    ]
+  },
+  "CS 285": {
+    "th_code": "คพ.285",
+    "en_code": "CS 285",
+    "th_name": "การประมวลสารสนเทศของมนุษย์",
+    "en_name": "Human Information Processing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 287": {
+    "th_code": "คพ.287",
+    "en_code": "CS 287",
+    "th_name": "การออกแบบสุนทรียภาพทางทัศนะ",
+    "en_name": "Visual Design",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 299": {
+    "th_code": "คพ.299",
+    "en_code": "CS 299",
+    "th_name": "คอมพิวเตอร์กราฟิก",
+    "en_name": "Computer Graphics",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  "CS 301": {
+    "th_code": "คพ.301",
+    "en_code": "CS 301",
+    "th_name": "การเตรียมความพร้อมสําหรับโครงงานพิเศษและสหกิจ",
+    "en_name": "Preparation for Senior Projects and Co-operative Education",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251"
+    ]
+  },
+  "CS 303": {
+    "th_code": "คพ.303",
+    "en_code": "CS 303",
+    "th_name": "โครงงานพิเศษ 1",
+    "en_name": "Special Projects 1",
+    "credits": 0,
+    "hours": {
+      "lecture": 0,
+      "lab": 6,
+      "self_study": 0
+    },
+    "prerequisites": [
+      "CS 301"
+    ]
+  },
+  "CS 304": {
+    "th_code": "คพ.304",
+    "en_code": "CS 304",
+    "th_name": "สหกิจศึกษา 1",
+    "en_name": "Co-operative Education 1",
+    "credits": 0,
+    "hours": {
+      "lecture": 0,
+      "lab": 6,
+      "self_study": 0
+    },
+    "prerequisites": [
+      "CS 301"
+    ]
+  },
+  "CS 305": {
+    "th_code": "คพ.305",
+    "en_code": "CS 305",
+    "th_name": "จรรยาบรรณทางวิชาชีพและเชิงสังคม",
+    "en_name": "Social and Professional Ethics",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 310": {
+    "th_code": "คพ.310",
+    "en_code": "CS 310",
+    "th_name": "หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์",
+    "en_name": "Selected Topics in Computer Science",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  "CS 314": {
+    "th_code": "คพ.314",
+    "en_code": "CS 314",
+    "th_name": "ทฤษฎีออโตมาตา",
+    "en_name": "Automata Theory",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 241"
+    ]
+  },
+  "CS 320": {
+    "th_code": "คพ.320",
+    "en_code": "CS 320",
+    "th_name": "หัวข้อเลือกสรรด้านระบบปฏิบัติการ",
+    "en_name": "Selected Topics in Operating Systems",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 222",
+      "CS 233"
+    ]
+  },
+  "CS 325": {
+    "th_code": "คพ.325",
+    "en_code": "CS 325",
+    "th_name": "อินเทอร์เน็ตของสรรพสิ่งเบื้องต้น",
+    "en_name": "Introduction to Internet of Things",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 221"
+    ]
+  },
+  "CS 331": {
+    "th_code": "คพ.331",
+    "en_code": "CS 331",
+    "th_name": "คอมพิวเตอร์เครือข่าย",
+    "en_name": "Net-Centric Computing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 222"
+    ]
+  },
+  "CS 332": {
+    "th_code": "คพ.332",
+    "en_code": "CS 332",
+    "th_name": "ความปลอดภัยของระบบคอมพิวเตอร์",
+    "en_name": "Computer System Security",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 331"
+    ]
+  },
+  "CS 335": {
+    "th_code": "คพ.335",
+    "en_code": "CS 335",
+    "th_name": "เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ",
+    "en_name": "Practical Computer Networking",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 331"
+    ]
+  },
+  "CS 336": {
+    "th_code": "คพ.336",
+    "en_code": "CS 336",
+    "th_name": "เทคโนโลยีเครือข่ายไร้สาย",
+    "en_name": "Wireless Network Technology",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 331"
+    ]
+  },
+  "CS 337": {
+    "th_code": "คพ.337",
+    "en_code": "CS 337",
+    "th_name": "ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบ",
+    "en_name": "Introduction to Cluster Computing and Distributed Computing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 222"
+    ]
+  },
+  "CS 340": {
+    "th_code": "คพ.340",
+    "en_code": "CS 340",
+    "th_name": "หัวข้อเลือกสรรด้านภาษาโปรแกรม",
+    "en_name": "Selected Topics in Programming Languages",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 241"
+    ]
+  },
+  "CS 341": {
+    "th_code": "คพ.341",
+    "en_code": "CS 341",
+    "th_name": "วิศวกรรมข้อมูลขนาดใหญ่",
+    "en_name": "Big Data Engineering",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251"
+    ]
+  },
+  "CS 342": {
+    "th_code": "คพ.342",
+    "en_code": "CS 342",
+    "th_name": "การวิเคราะห์และเทคโนโลยีการตลาดดิจิทัล",
+    "en_name": "Digital Marketing Technology and Analytics",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 240"
+    ]
+  },
+  "CS 343": {
+    "th_code": "คพ.343",
+    "en_code": "CS 343",
+    "th_name": "การเรียนรู้เชิงลึก",
+    "en_name": "Applied Deep Learning",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 240"
+    ]
+  },
+  "CS 345": {
+    "th_code": "คพ.345",
+    "en_code": "CS 345",
+    "th_name": "การเรียนรู้ของเครื่องเชิงประยุกต์",
+    "en_name": "Practical Machine Learning",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 240"
+    ]
+  },
+  "CS 346": {
+    "th_code": "คพ.346",
+    "en_code": "CS 346",
+    "th_name": "แอปพลิเคชันและการวิเคราะห์ข้อมูลขนาดใหญ่",
+    "en_name": "Big Data Applications and Analytics",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 345"
+    ]
+  },
+  "CS 347": {
+    "th_code": "คพ.347",
+    "en_code": "CS 347",
+    "th_name": "คลังข้อมูลและอัจฉริยะทางธุรกิจ",
+    "en_name": "Data Warehousing and Business Intelligence",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 240"
+    ]
+  },
+  "CS 351": {
+    "th_code": "คพ.351",
+    "en_code": "CS 351",
+    "th_name": "ระบบคอมพิวเตอร์ในธุรกิจและการพาณิชย์อิเล็กทรอนิกส์",
+    "en_name": "Business Computing and Electronic Commerce",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251"
+    ]
+  },
+  "CS 353": {
+    "th_code": "คพ.353",
+    "en_code": "CS 353",
+    "th_name": "การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ",
+    "en_name": "Information Retrieval and Web Search",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251"
+    ]
+  },
+  "CS 354": {
+    "th_code": "คพ.354",
+    "en_code": "CS 354",
+    "th_name": "ระบบฐานข้อมูล 2",
+    "en_name": "Database Systems 2",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251"
+    ]
+  },
+  "CS 355": {
+    "th_code": "คพ.355",
+    "en_code": "CS 355",
+    "th_name": "กลยุทธ์และการเปลี่ยนแปลงสู่ดิจิทัล",
+    "en_name": "Digital Strategy and Transformation",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 356": {
+    "th_code": "คพ.356",
+    "en_code": "CS 356",
+    "th_name": "ระบบสารสนเทศเพื่อการบริหาร",
+    "en_name": "Management Information Systems",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251"
+    ]
+  },
+  "CS 360": {
+    "th_code": "คพ.360",
+    "en_code": "CS 360",
+    "th_name": "หัวข้อเลือกสรรด้านวิศวกรรมซอฟต์แวร์",
+    "en_name": "Selected Topics in Software Engineering",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 261"
+    ]
+  },
+  "CS 361": {
+    "th_code": "คพ.361",
+    "en_code": "CS 361",
+    "th_name": "สถาปัตยกรรมซอฟต์แวร์บนคลาวด์",
+    "en_name": "Cloud-Based Software Architecting",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 232"
+    ]
+  },
+  "CS 362": {
+    "th_code": "คพ.362",
+    "en_code": "CS 362",
+    "th_name": "การออกแบบซอฟต์แวร์และระบบ",
+    "en_name": "Software System and Design",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 261"
+    ]
+  },
+  "CS 363": {
+    "th_code": "คพ.363",
+    "en_code": "CS 363",
+    "th_name": "โครงงานทางวิศวกรรมซอฟต์แวร์",
+    "en_name": "Software Engineering Project",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 234",
+      "CS 331"
+    ]
+  },
+  "CS 364": {
+    "th_code": "คพ.364",
+    "en_code": "CS 364",
+    "th_name": "การพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพา",
+    "en_name": "Mobile Application Development",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251"
+    ]
+  },
+  "CS 365": {
+    "th_code": "คพ.365",
+    "en_code": "CS 365",
+    "th_name": "กระบวนการและไปป์ไลน์เดฟออปส์",
+    "en_name": "DevOps Pipelines and Processes",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 232"
+    ]
+  },
+  "CS 366": {
+    "th_code": "คพ.366",
+    "en_code": "CS 366",
+    "th_name": "ไมโครเซอร์วิสและสถาปัตยกรรมแบบไร้เซิร์ฟเวอร์",
+    "en_name": "Microservices and Serverless Architectures",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 232"
+    ]
+  },
+  "CS 367": {
+    "th_code": "คพ.367",
+    "en_code": "CS 367",
+    "th_name": "แนวคิดการพัฒนาเว็บบริการ",
+    "en_name": "Web Service Development Concepts",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 331"
+    ]
+  },
+  "CS 368": {
+    "th_code": "คพ.368",
+    "en_code": "CS 368",
+    "th_name": "การเป็นผู้ประกอบการสําหรับผลิตภัณฑ์ดิจิทัล",
+    "en_name": "Entrepreneurship for Digital Product",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "CS 370": {
+    "th_code": "คพ.370",
+    "en_code": "CS 370",
+    "th_name": "หัวข้อเลือกสรรด้านระบบปัญญาประดิษฐ์",
+    "en_name": "Selected Topics in Artificial Intelligent Systems",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 271"
+    ]
+  },
+  "CS 371": {
+    "th_code": "คพ.371",
+    "en_code": "CS 371",
+    "th_name": "ปัญญาประดิษฐ์กับการประยุกต์",
+    "en_name": "Artificial Intelligence in Practice",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 271"
+    ]
+  },
+  "CS 372": {
+    "th_code": "คพ.372",
+    "en_code": "CS 372",
+    "th_name": "การเรียนรู้ของเครื่อง",
+    "en_name": "Machine Learning",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 271"
+    ]
+  },
+  "CS 373": {
+    "th_code": "คพ.373",
+    "en_code": "CS 373",
+    "th_name": "กลยุทธ์การค้นหาขั้นสูง",
+    "en_name": "Advanced Search Strategies",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 271"
+    ]
+  },
+  "CS 374": {
+    "th_code": "คพ.374",
+    "en_code": "CS 374",
+    "th_name": "การประมวลภาษาธรรมชาติ",
+    "en_name": "Natural Language Processing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 271"
+    ]
+  },
+  "CS 381": {
+    "th_code": "คพ.381",
+    "en_code": "CS 381",
+    "th_name": "การประมวลภาพดิจิทัล",
+    "en_name": "Digital Image Processing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 213"
+    ]
+  },
+  "CS 382": {
+    "th_code": "คพ.382",
+    "en_code": "CS 382",
+    "th_name": "ทัศนศาสตร์คอมพิวเตอร์เบื้องต้น",
+    "en_name": "Introduction to Computer Vision",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 381"
+    ]
+  },
+  "CS 384": {
+    "th_code": "คพ.384",
+    "en_code": "CS 384",
+    "th_name": "การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์",
+    "en_name": "Human - Computer Interaction",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 180"
+    ]
+  },
+  "CS 385": {
+    "th_code": "คพ.385",
+    "en_code": "CS 385",
+    "th_name": "โครงงานทางการออกแบบผลิตภัณฑ์และบริการด้านดิจิทัล",
+    "en_name": "Digital Product and Service Design Project",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 384"
+    ]
+  },
+  "CS 390": {
+    "th_code": "คพ.390",
+    "en_code": "CS 390",
+    "th_name": "หัวข้อเลือกสรรด้านการวิเคราะห์ข้อมูลมัลติมีเดีย",
+    "en_name": "Selected Topics in Multimedia Content Analysis",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 381"
+    ]
+  },
+  "CS 403": {
+    "th_code": "คพ.403",
+    "en_code": "CS 403",
+    "th_name": "โครงงานพิเศษ 2",
+    "en_name": "Special Projects 2",
+    "credits": 0,
+    "hours": {
+      "lecture": 0,
+      "lab": 12,
+      "self_study": 0
+    },
+    "prerequisites": [
+      "CS 303"
+    ]
+  },
+  "CS 404": {
+    "th_code": "คพ.404",
+    "en_code": "CS 404",
+    "th_name": "สหกิจศึกษา 2",
+    "en_name": "Co-operative Education 2",
+    "credits": 0,
+    "hours": {
+      "lecture": 0,
+      "lab": 12,
+      "self_study": 0
+    },
+    "prerequisites": [
+      "CS 304"
+    ]
+  },
+  "CS 420": {
+    "th_code": "คพ.420",
+    "en_code": "CS 420",
+    "th_name": "หัวข้อเลือกสรรด้านสถาปัตยกรรมคอมพิวเตอร์",
+    "en_name": "Selected Topics in Computer Architecture",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 221"
+    ]
+  },
+  "CS 430": {
+    "th_code": "คพ.430",
+    "en_code": "CS 430",
+    "th_name": "หัวข้อเลือกสรรด้านคอมพิวเตอร์เครือข่าย",
+    "en_name": "Selected Topics in Net-Centric Computing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 331"
+    ]
+  },
+  "CS 440": {
+    "th_code": "คพ.440",
+    "en_code": "CS 440",
+    "th_name": "หัวข้อเลือกสรรด้านวิทยาการข้อมูล",
+    "en_name": "Selected Topics in Data Science",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 345"
+    ]
+  },
+  "CS 450": {
+    "th_code": "คพ.450",
+    "en_code": "CS 450",
+    "th_name": "หัวข้อเลือกสรรด้านระบบสารสนเทศ",
+    "en_name": "Selected Topics in Information Systems",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 251",
+      "CS 356"
+    ]
+  },
+  "CS 480": {
+    "th_code": "คพ.480",
+    "en_code": "CS 480",
+    "th_name": "หัวข้อเลือกสรรด้านการปฏิสัมพันธ์ระหว่างมนุษย์และ",
+    "en_name": "Selected Topics in Human-Computer Interaction",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 384"
+    ]
+  },
+  "CS 490": {
+    "th_code": "คพ.490",
+    "en_code": "CS 490",
+    "th_name": "หัวข้อเลือกสรรด้านคอมพิวเตอร์กราฟิก",
+    "en_name": "Selected Topics in Computer Graphics",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": [
+      "CS 299",
+      "CS 299"
+    ]
+  },
+  "EL 395": {
+    "th_code": "สษ.395",
+    "en_code": "EL 395",
+    "th_name": "ภาษาอังกฤษเชิงวิชาการและทักษะการศึกษา 2",
+    "en_name": "Academic English and Study Skills 2",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  }
+}
