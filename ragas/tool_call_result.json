@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "total_questions": 6,
+    "tool_selection_accuracy": 1.0,
+    "argument_accuracy": 1.0,
+    "exact_match": 1.0
+  },
+  "details": [
+    {
+      "question": "CS 271 มีกี่หน่วยกิต?",
+      "expected_action": {
+        "action": "get_course_detail",
+        "input": {
+          "course_id": "CS 271"
+        }
+      },
+      "predicted_action": {
+        "action": "get_course_detail",
+        "input": {
+          "course_id": "CS 271"
+        }
+      },
+      "tool_selection": 1.0,
+      "argument": 1.0,
+      "exact_match": 1.0
+    },
+    {
+      "question": "วิชา major required ของ CIS มีกี่วิชา?",
+      "expected_action": {
+        "action": "count_courses",
+        "input": {
+          "major": "CIS",
+          "course_type": "major_required"
+        }
+      },
+      "predicted_action": {
+        "action": "count_courses",
+        "input": {
+          "major": "CIS",
+          "course_type": "major_required"
+        }
+      },
+      "tool_selection": 1.0,
+      "argument": 1.0,
+      "exact_match": 1.0
+    },
+    {
+      "question": "ลงวิชา CS 372 ได้ไหม ถ้าผ่าน CS 251 มาแล้ว?",
+      "expected_action": {
+        "action": "check_prerequisite",
+        "input": {
+          "course_id": "CS 372",
+          "completed_courses": [
+            "CS 251"
+          ]
+        }
+      },
+      "predicted_action": {
+        "action": "check_prerequisite",
+        "input": {
+          "course_id": "CS 372",
+          "completed_courses": [
+            "CS 251"
+          ]
+        }
+      },
+      "tool_selection": 1.0,
+      "argument": 1.0,
+      "exact_match": 1.0
+    },
+    {
+      "question": "ต้องเรียนอะไรก่อนถึงจะเรียน CS 372 ได้?",
+      "expected_action": {
+        "action": "get_learning_path",
+        "input": {
+          "target_course_id": "CS 372"
+        }
+      },
+      "predicted_action": {
+        "action": "get_learning_path",
+        "input": {
+          "target_course_id": "CS 372"
+        }
+      },
+      "tool_selection": 1.0,
+      "argument": 1.0,
+      "exact_match": 1.0
+    },
+    {
+      "question": "ปี 2 ของ CIS เรียนอะไรบ้าง?",
+      "expected_action": {
+        "action": "get_study_plan",
+        "input": {
+          "major": "CIS",
+          "year": 2
+        }
+      },
+      "predicted_action": {
+        "action": "get_study_plan",
+        "input": {
+          "major": "CIS",
+          "year": 2
+        }
+      },
+      "tool_selection": 1.0,
+      "argument": 1.0,
+      "exact_match": 1.0
+    },
+    {
+      "question": "วิชาไหนสอนเรื่อง OOP?",
+      "expected_action": {
+        "action": "none",
+        "input": {}
+      },
+      "predicted_action": {
+        "action": "none",
+        "input": {}
+      },
+      "tool_selection": 1.0,
+      "argument": 1.0,
+      "exact_match": 1.0
+    }
+  ]
+}

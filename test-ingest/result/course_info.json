@@ -1270,5 +1270,226 @@
       "self_study": 6
     },
     "prerequisites": []
+  },
+  "TU 100": {
+    "th_code": "มธ.100",
+    "en_code": "TU 100",
+    "th_name": "พลเมืองกับการลงมือแก้ปัญหา",
+    "en_name": "Civic Engagement",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 101": {
+    "th_code": "มธ.101",
+    "en_code": "TU 101",
+    "th_name": "โลก, อาเซียน และไทย",
+    "en_name": "Thailand, ASEAN, and the World",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 103": {
+    "th_code": "มธ.103",
+    "en_code": "TU 103",
+    "th_name": "ชีวิตกับความยั่งยืน",
+    "en_name": "Life and Sustainability",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 104": {
+    "th_code": "มธ.104",
+    "en_code": "TU 104",
+    "th_name": "การคิด อ่าน และเขียนอย่างมีวิจารณญาณ",
+    "en_name": "Critical Thinking, Reading, and Writing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 106": {
+    "th_code": "มธ.106",
+    "en_code": "TU 106",
+    "th_name": "ความคิดสร้างสรรค์และการสื่อสาร",
+    "en_name": "Creativity and Communication",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 107": {
+    "th_code": "มธ.107",
+    "en_code": "TU 107",
+    "th_name": "ทักษะดิจิทัลกับการแก้ปัญหา",
+    "en_name": "Digital Skill and Problem Solving",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 108": {
+    "th_code": "มธ.108",
+    "en_code": "TU 108",
+    "th_name": "การพัฒนาและจัดการตนเอง",
+    "en_name": "Self-Development and Management",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 109": {
+    "th_code": "มธ.109",
+    "en_code": "TU 109",
+    "th_name": "นวัตกรรมกับกระบวนคิดผู้ประกอบการ",
+    "en_name": "Innovation and Entrepreneurial Mindset",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 201": {
+    "th_code": "มธ.201",
+    "en_code": "TU 201",
+    "th_name": "ความรู้ทางการเงินสำหรับบุคคล",
+    "en_name": "Financial Literacy for Individuals",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 202": {
+    "th_code": "มธ.202",
+    "en_code": "TU 202",
+    "th_name": "ครบเครื่องเรื่องลงทุน",
+    "en_name": "Complete Investment",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "TU 301": {
+    "th_code": "มธ.301",
+    "en_code": "TU 301",
+    "th_name": "การลงทุนในตลาดหลักทรัพย์ฯ",
+    "en_name": "Investment in the Stock Market",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "EL 105": {
+    "th_code": "สษ.105",
+    "en_code": "EL 105",
+    "th_name": "ทักษะการสื่อสารทางภาษาอังกฤษ",
+    "en_name": "English Communication Skills",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "EL 295": {
+    "th_code": "สษ.295",
+    "en_code": "EL 295",
+    "th_name": "ภาษาอังกฤษเชิงวิชาการและทักษะการศึกษา 1",
+    "en_name": "Academic English and Study Skills 1",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "LAS 101": {
+    "th_code": "ศศ.101",
+    "en_code": "LAS 101",
+    "th_name": "การคิด อ่าน และเขียนอย่างมีวิจารณญาณ",
+    "en_name": "Critical Thinking, Reading, and Writing",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "MA 211": {
+    "th_code": "ค.211",
+    "en_code": "MA 211",
+    "th_name": "แคลคูลัส 1",
+    "en_name": "Calculus 1",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "ST 216": {
+    "th_code": "ส.216",
+    "en_code": "ST 216",
+    "th_name": "สถิติสำหรับสังคมศาสตร์ 1",
+    "en_name": "Statistics for Social Science 1",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
+  },
+  "ST 329": {
+    "th_code": "ส.329",
+    "en_code": "ST 329",
+    "th_name": "ความน่าจะเป็นและตัวแบบทางสถิติประยุกต์",
+    "en_name": "Applied Probability and Statistical Models",
+    "credits": 3,
+    "hours": {
+      "lecture": 3,
+      "lab": 0,
+      "self_study": 6
+    },
+    "prerequisites": []
   }
 }

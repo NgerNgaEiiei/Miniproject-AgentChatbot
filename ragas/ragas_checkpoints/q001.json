@@ -1,0 +1,17 @@
+{
+  "question_idx": 1,
+  "question": "วิชาที่สอนเรื่อง cloud",
+  "answer": "วิชาที่สอนเรื่อง cloud คือ CS 232 เทคโนโลยีกลุ่มเมฆเบื้องต้น, CS 361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ และ CS 337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น",
+  "ground_truth": "วิชาที่สอนเรื่อง cloud ได้แก่ CS 232 เทคโนโลยีกลุ่มเมฆเบื้องต้น และ CS 361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์",
+  "contexts": [
+    "CS 232 เทคโนโลยีกลุ่มเมฆเบื้องต้น คุณลักษณะของการประมวลผลแบบกลุ่มเมฆ รูปแบบการให้บริการของการประมวลผลแบบกลุ่มเมฆ เช่น ไอเอเอเอส พีเอเอเอส และเอสเอเอเอส ทักษะการพัฒนาแอปพลิเคชันเพื่อให้บริการผ่านเทคโนโลยีกลุ่มเมฆ การรักษาความปลอดภัยบนกลุ่มเมฆ Cloud computing concepts and characteristics, cloud computing service models e.g. Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), cloud application development, cloud security.",
+    "CS 361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ หลักการออกแบบสถาปัตยกรรมซอฟต์แวร์ที่อิงตามความต้องการเชิงธุรกิจ องค์ประกอบและบริการบนคลาวด์ คุณสมบัติของระบบที่มีสถาปัตยกรรมที่ดี ความพร้อมใช้งานที่เสถียรสูง ความทนทานต่อความเสียหาย ความน่าเชื่อถือ และความสามารถในการปรับขนาดได้ แนวการออกแบบที่ดี โครงสร้างพื้นฐานแบบโค้ด Architectural design principles based on business requirements, cloud-based components and services, well-architected system quality (high availability, fault tolerance, reliability and scalability), design best practices, infrastructure as a code.",
+    "CS 337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น การสร้างระบบคลัสเตอร์ การติดตั้งซอฟต์แวร์ที่ใช้สําหรับบริหารจัดการระบบคลัสเตอร์ การมอนิเตอร์ระบบ การกําหนดตารางการทํางานของโพรเซสเซอร์ การดูแลระบบคลัสเตอร์ การรักษาความปลอดภัย Study the construction of Beowulf and cluster computers, building a small cluster, using cluster installation and configuration tools, cluster monitoring, job scheduling, user management, cluster systems maintenance, security measures and policies."
+  ],
+  "scores": {
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.8015240501412633,
+    "answer_correctness": 0.8466735820306713
+  },
+  "evaluated_at": "2026-05-06T21:09:08"
+}

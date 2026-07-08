@@ -1,71 +1,85 @@
 import re
-from sentence_transformers import SentenceTransformer # Library สำหรับสร้าง embedding
-from qdrant_client import QdrantClient   # เชื่อมต่อกับ Qdrant Vector DB
+from sentence_transformers import SentenceTransformer
+from qdrant_client import QdrantClient
 
-model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2") # model ที่แปลง text → embedding vector
+COLLECTION_NAME = "course_chunks_collection"  # ชื่อ collection ใน Qdrant (ตรงกับ ingest_course_chunks.py)
+
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")  # multilingual model รองรับภาษาไทย-อังกฤษ
 
 client = QdrantClient("localhost", port=6333)
 
-def search_docs(query, top_k=3):        # query:คำถามผู้ใข้, top_k=3 : ดึงเอกสารที่ใกล้ที่สุด 3 ชิ้น
 
-    query_vector = model.encode(query)  # แปลงคำถามเป็น vector
-
-    results = client.query_points(      # ค้นหาใน Vector Database
-        collection_name="coursesdetail",   # ค้นหาใน collection curriculum, coursesdetail
-        query=query_vector,             # ใช้ vector ของคำถามเป็นตัวค้นหา
-        limit=top_k                     # เอาผลลัพธ์ top_k ชิ้น (3)
-    ).points                            # Qdrant จะคืนข้อมูลแบบ object เอาเฉพาะ points
-
-    docs = []                           # สร้าง list ว่าง เพื่อเก็บ text ของเอกสาร
-
-    for r in results:
-        docs.append(r.payload["text"])  # ดึง text จาก payload (ดึงข้อความจริงจาก PDF)
-
-    return docs
+def normalize_query(query: str) -> str:
+    """
+    Normalize รหัสวิชาใน query ให้ตรงกับ format ใน collection
+    เช่น "CS216" → "CS 216", "cs271" → "CS 271"
+    ป้องกัน format mismatch ระหว่าง query กับ header ที่ embed ไว้
+    """
+    return re.sub(r'([A-Za-z]+)(\d+)', lambda m: m.group(1).upper() + ' ' + m.group(2), query)
 
 
-# ========== Code for evaluate ===============
-def extract_code(query):                       # ดึงรหัสวิชาจาก query
-    match = re.search(r"CS\d+", query)
-    return match.group(0) if match else None
+def extract_code(query: str) -> str | None:
+    """ดึงรหัสวิชา EN จากคำถาม เช่น 'CS271' หรือ 'CS 271' → 'CS 271'"""
+    match = re.search(r"CS\s*\d{3}", query, re.IGNORECASE)
+    if match:
+        raw = match.group(0).upper()
+        return re.sub(r"CS(\d)", r"CS \1", raw)  # normalize เป็น "CS 271"
+    return None
 
 
-def rerank_with_code_boost(query, docs):       # เอาผลลัพธ์ที่ retrieve มาแล้วจัดอันดับใหม่
+def rerank_with_code_boost(query: str, docs: list) -> list:
+    """
+    จัดอันดับ docs ใหม่หลัง vector search
+    ถ้าคำถามระบุรหัสวิชาตรงๆ เช่น "CS 271 คืออะไร"
+    → boost score ของวิชานั้น +1.0 เพื่อให้ขึ้นมาอยู่อันดับแรก
+    """
     code = extract_code(query)
 
-    def score(doc):                            # scoring function ที่จะใช้ในการ sort
+    def score(doc):
         base = doc["score"]
-
-        # ⭐ boost ถ้ามี code ตรง +1.0 boost score
-        if code and doc["en_code"] == code:
+        if code and doc.get("en_code") == code:
             base += 1.0
-
         return base
 
-    return sorted(docs, key=score, reverse=True) # เอา doc ทีละตัวไปคำนวณ “คะแนนใหม่”
+    return sorted(docs, key=score, reverse=True)
 
 
-def search_doc_with_id(query, top_k=3):
+def search_doc_with_id(query: str, top_k: int = 3) -> list:
+    """
+    ค้นหาเอกสารที่เกี่ยวข้องกับคำถามจาก Qdrant
+    คืน list ของ dict พร้อม metadata (en_code, th_name ฯลฯ)
+    เพื่อให้ rag_tool.py นำไปสร้าง context ให้ LLM
+
+    ขั้นตอน:
+      1. แปลงคำถามเป็น vector ด้วย embedding model
+      2. ค้นหา top_k chunks ที่ใกล้เคียงที่สุดใน Qdrant
+      3. rerank โดย boost วิชาที่ตรงกับรหัสในคำถาม
+    """
+    query = normalize_query(query)
     query_vector = model.encode(query)
 
+    # ดึง candidate pool ใหญ่กว่า top_k เพื่อให้ rerank มีตัวเลือกมากขึ้น
+    # กรณีที่ query ระบุรหัสวิชาตรงๆ chunk ที่ตรงอาจไม่ติด top-k แรกของ vector search
+    # แต่จะถูก boost ขึ้นมาได้ใน rerank_with_code_boost
+    candidate_pool = max(top_k * 5, 15)
     results = client.query_points(
-        collection_name="coursesdetail",
+        collection_name=COLLECTION_NAME,
         query=query_vector,
-        limit=top_k
+        limit=candidate_pool,
     ).points
 
     docs = []
     for r in results:
         docs.append({
-            "id": r.id,
-            "text": r.payload["text"],
+            "id":      r.id,
+            "text":    r.payload["text"],
             "th_code": r.payload.get("th_code"),
             "en_code": r.payload.get("en_code"),
-            "score": r.score   # ⭐ สำคัญ
+            "th_name": r.payload.get("th_name"),
+            "en_name": r.payload.get("en_name"),
+            "score":   r.score,
         })
 
-    # ⭐ rerank ตรงนี้
     docs = rerank_with_code_boost(query, docs)
 
-    # เอา top_k หลัง rerank
     return docs[:top_k]

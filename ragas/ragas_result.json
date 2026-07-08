@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "model": "gemini-2.5-flash",
+    "dataset": "ragas_dataset.json",
+    "num_questions": 3,
+    "metrics": [
+      "faithfulness",
+      "answer_relevancy",
+      "answer_correctness"
+    ],
+    "evaluated_at": "2026-05-06T21:10:30"
+  },
+  "summary": {
+    "faithfulness": {
+      "mean": 0.8632,
+      "std": 0.1745,
+      "min": 0.6667,
+      "max": 1.0,
+      "n": 3
+    },
+    "answer_relevancy": {
+      "mean": 0.8487,
+      "std": 0.1115,
+      "min": 0.7686,
+      "max": 0.976,
+      "n": 3
+    },
+    "answer_correctness": {
+      "mean": 0.8369,
+      "std": 0.1682,
+      "min": 0.6641,
+      "max": 1.0,
+      "n": 3
+    }
+  },
+  "details": [
+    {
+      "question_idx": 0,
+      "question": "วิชาที่สอน mobile app",
+      "answer": "วิชาที่สอนเกี่ยวกับการพัฒนาแอปพลิเคชันสำหรับอุปกรณ์พกพาในหลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยธรรมศาสตร์ ได้แก่ 1. CS 364 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา เน้นการพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา โดยครอบคลุมแพลตฟอร์มของอุปกรณ์ ข้อจำกัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สำหรับอุปกรณ์ที่มีทรัพยากรจำกัด วัฏจักรของกิจกรรม และขั้นตอนการพัฒนาในทางปฏิบัติ 2. CS 265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น เป็นวิชาพื้นฐานที่เน้นการพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา แนวคิดโดยรวม ปัญหาการออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ",
+      "ground_truth": "วิชาที่สอนเรื่อง mobile app ได้แก่ CS 265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น และ CS 364 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา",
+      "contexts": [
+        "CS 364 การพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพา ภาพรวมการพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพา แพลตฟอร์มของอุปกรณ์ ข้อจํากัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สําหรับอุปกรณ์ที่มีทรัพยากรจํากัด วัฏจักรของกิจกรรม ทรัพยากรของอุปกรณ์พกพาและโปรแกรมประยุกต์ การออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย การรองรับการเปลี่ยนแปลงขณะประมวลผล แนวคิดโดยรวม ปัญหาการออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ Developing landscape of mobile applications, mobile platforms, the specific constraints and requirements of user interface design for limited-resource devices, activity life cycle, mobile and application resources, providing alternative resources, handling runtime changes, conceptual overview, design issues, and practical development issues.",
+        "CS 265 การพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพาเบื้องต้น ภาพรวมการพัฒนาโปรแกรมประยุกต์สําหรับอุปกรณ์พกพา ข้อจํากัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สําหรับอุปกรณ์ที่มีทรัพยากรจํากัด การออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย แนวคิดโดยรวม ปัญหาการออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ Developing landscape of mobile applications, the specific constraints and requirements of user interface design for limited-resource devices, providing alternative resources, conceptual overview, design issues, and practical development issues.",
+        "CS 368 การเป็นผู้ประกอบการสําหรับผลิตภัณฑ์ดิจิทัล ศึกษากระบวนการของผู้ประกอบการโดยเน้นที่การพัฒนาและบริหารผลิตภัณฑ์ดิจิทัล การสร้างแนวคิด ความคิดสร้างสรรค์ รูปแบบของการทําธุรกิจเริ่มต้น ฝึกปฏิบัติกิจกรรมของผู้ประกอบการ การสร้างวิสัยทัศน์ของสินค้า การวิเคราะห์กรณีธุรกิจ การวิเคราะห์โอกาสของผลิตภัณฑ์ การระบุตําแหน่งในตลาดของผลิตภัณฑ์"
+      ],
+      "scores": {
+        "faithfulness": 0.9230769230769231,
+        "answer_relevancy": 0.7685610223833153,
+        "answer_correctness": 0.6641144136560424
+      },
+      "evaluated_at": "2026-05-06T21:08:09"
+    },
+    {
+      "question_idx": 1,
+      "question": "วิชาที่สอนเรื่อง cloud",
+      "answer": "วิชาที่สอนเรื่อง cloud คือ CS 232 เทคโนโลยีกลุ่มเมฆเบื้องต้น, CS 361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ และ CS 337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น",
+      "ground_truth": "วิชาที่สอนเรื่อง cloud ได้แก่ CS 232 เทคโนโลยีกลุ่มเมฆเบื้องต้น และ CS 361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์",
+      "contexts": [
+        "CS 232 เทคโนโลยีกลุ่มเมฆเบื้องต้น คุณลักษณะของการประมวลผลแบบกลุ่มเมฆ รูปแบบการให้บริการของการประมวลผลแบบกลุ่มเมฆ เช่น ไอเอเอเอส พีเอเอเอส และเอสเอเอเอส ทักษะการพัฒนาแอปพลิเคชันเพื่อให้บริการผ่านเทคโนโลยีกลุ่มเมฆ การรักษาความปลอดภัยบนกลุ่มเมฆ Cloud computing concepts and characteristics, cloud computing service models e.g. Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), cloud application development, cloud security.",
+        "CS 361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ หลักการออกแบบสถาปัตยกรรมซอฟต์แวร์ที่อิงตามความต้องการเชิงธุรกิจ องค์ประกอบและบริการบนคลาวด์ คุณสมบัติของระบบที่มีสถาปัตยกรรมที่ดี ความพร้อมใช้งานที่เสถียรสูง ความทนทานต่อความเสียหาย ความน่าเชื่อถือ และความสามารถในการปรับขนาดได้ แนวการออกแบบที่ดี โครงสร้างพื้นฐานแบบโค้ด Architectural design principles based on business requirements, cloud-based components and services, well-architected system quality (high availability, fault tolerance, reliability and scalability), design best practices, infrastructure as a code.",
+        "CS 337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น การสร้างระบบคลัสเตอร์ การติดตั้งซอฟต์แวร์ที่ใช้สําหรับบริหารจัดการระบบคลัสเตอร์ การมอนิเตอร์ระบบ การกําหนดตารางการทํางานของโพรเซสเซอร์ การดูแลระบบคลัสเตอร์ การรักษาความปลอดภัย Study the construction of Beowulf and cluster computers, building a small cluster, using cluster installation and configuration tools, cluster monitoring, job scheduling, user management, cluster systems maintenance, security measures and policies."
+      ],
+      "scores": {
+        "faithfulness": 0.6666666666666666,
+        "answer_relevancy": 0.8015240501412633,
+        "answer_correctness": 0.8466735820306713
+      },
+      "evaluated_at": "2026-05-06T21:09:08"
+    },
+    {
+      "question_idx": 2,
+      "question": "วิชาไหนสอนเรื่อง testing บ้าง",
+      "answer": "วิชาที่สอนเรื่อง testing คือ CS 262 การทดสอบซอฟต์แวร์เบื้องต้น",
+      "ground_truth": "วิชาที่สอนเรื่อง testing คือ CS 262 การทดสอบซอฟต์แวร์เบื้องต้น",
+      "contexts": [
+        "CS 262 การทดสอบซอฟต์แวร์เบื้องต้น แนวคิดการทดสอบและการประกันคุณภาพซอฟต์แวร์ เทคนิคการสร้างข้อมูลการทดสอบแบบแบลคบอกซ์และไวท์บอกซ์ การทดสอบซอฟต์แวร์ในระดับยูนิต โมดูล ระบบย่อย และทั้งระบบ กระบวนการทดสอบและการวางแผนการทดสอบซอฟต์แวร์ Software testing and quality assurance concepts, test data generation using white-box and black-box techniques, software testing at unit, module, sub-system, and system levels, and software testing process and planning.",
+        "CS 304 สหกิจศึกษา 1 การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจากสาขาวิชา โดยนักศึกษาต้องนำความรู้ทางวิชาการที่ได้เรียนไปประยุกต์ใช้และฝึกทักษะในภาวะแวดล้อมการทำงานจริง",
+        "CS 345 การเรียนรู้ของเครื่องเชิงประยุกต์ ศึกษาการเรียนรู้ของเครื่องและวิทยาศาสตร์ข้อมูลด้วยการลงมือปฏิบัติ อภิปรายเกี่ยวกับการประยุกต์ใช้โมเดลการเรียนรู้ของเครื่อง ทั้งโมเดลการเรียนรู้แบบมีผู้สอนและการเรียนรู้แบบไม่มีผู้สอน"
+      ],
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9760429904448178,
+        "answer_correctness": 1.0
+      },
+      "evaluated_at": "2026-05-06T21:10:30"
+    }
+  ]
+}

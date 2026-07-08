@@ -1,0 +1,35 @@
+[
+  {
+    "question": "อยากเรียนเรื่อง OOP ต้องลงวิชาอะไร?",
+    "answer": "หากคุณต้องการเรียนรู้เรื่อง OOP (Object-Oriented Programming) หรือการเขียนโปรแกรมเชิงวัตถุ คุณจะต้องเรียนวิชา คพ.111 แนวคิดเชิงวัตถุ (CS111 Object-Oriented Concepts)\nวิชาบังคับก่อน: คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ หรือ คพ.103 (ถ้าเคยศึกษาแล้ว)\nวิชานี้จะช่วยพัฒนาทักษะการวิเคราะห์และการแก้ปัญหาด้วยแนวคิดเชิงวัตถุ รวมถึงการบูรณาการแนวคิดและแนวทางเชิงปฏิบัติที่ทันสมัยในวัฏจักรการพัฒนาซอฟต์แวร์ (SDLC) นอกจากนี้ คุณจะได้เรียนรู้หลักการพื้นฐานในการเขียนโปรแกรมเชิงวัตถุตามที่วิเคราะห์และออกแบบไว้ และแนวทางในการทวนสอบความสอดคล้องระหว่างแบบและซอร์สโค้ด\nดังนั้น ลำดับการเรียนที่แนะนำคือ:\n1. เรียน คพ.102 (หรือ คพ.103) ก่อน\n2. จากนั้นเรียน คพ.111 เพื่อเรียนรู้ OOP\nการเรียนวิชาเหล่านี้จะช่วยให้คุณเข้าใจแนวคิดและหลักการของการเขียนโปรแกรมเชิงวัตถุอย่างมั่นคง และสามารถนำไปประยุกต์ใช้ในการพัฒนาซอฟต์แวร์ได้อย่างมีประสิทธิภาพ",
+    "contexts": [
+      "คพ.111 แนวคิดเชิงวัตถุ ( CS111 Object-Oriented Concepts ) วิชาบังคับก่อน: คพ.102 หรือเคยศึกษา คพ.103 พัฒนาทักษะการวิเคราะห์และการแก้ปัญหาด้วยแนวคิดเชิงวัตถุ บูรณาการแนวคิดและแนวทางเชิงปฏิบัติที่ทันสมัยในวัฏจักรการพัฒนาซอฟต์แวร์ หลักการพื้นฐานในการเขียนโปรแกรมเชิงวัตถุตามที่วิเคราะห์และออกแบบไว้ แนวทางในการทวนสอบความสอดคล้องระหว่างแบบและซอร์สโค้ด Prerequisite: Have taken CS102 or Have taken CS103 Developing of analytical and problem-solving skills through object-oriented paradigm. Integrating of conceptual and state-of-the-art practical approaches in software development life cycle (SDLC), object-oriented design techniques and tools, object-oriented programming based on the design, consistency verification between the design and source code."
+    ],
+    "ground_truth": "วิชาที่สอนเรื่อง OOP คือ คพ.111 แนวคิดเชิงวัตถุ (CS111 Object-Oriented Concepts) โดยมีวิชาบังคับก่อนคือ คพ.102 หรือ คพ.103",
+    "retrieved_chunk_indices": [
+      2
+    ]
+  },
+  {
+    "question": "วิชาไหนสอนเรื่อง sorting และ searching?",
+    "answer": "วิชาที่สอนเรื่อง sorting และ searching คือ คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี (CS216 Data Structures and Algorithms) ซึ่งมีเนื้อหาเกี่ยวกับการวิเคราะห์ความต้องการด้านเวลาและหน่วยความจำในการค้นหา (searching) และขั้นตอนวิธีเกี่ยวกับการค้นหาและการเรียงลำดับ (sorting) รวมถึงการวิเคราะห์ความซับซ้อนของขั้นตอนวิธีต่างๆ",
+    "contexts": [
+      "คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี ( CS216 Data Structures and Algorithms ) วิชาบังคับก่อน: เคยศึกษา คพ.111 การวิเคราะห์เวลาดำเนินงานและความซับซ้อนของขั้นตอนวิธี โครงสร้างข้อมูลแบบต่าง ๆ อาร์เรย์ ลิงก์ลิสต์ สแต็ก คิว ทรี แฮช กราฟ ไบนารีฮีป การวิเคราะห์ความต้องการด้านเวลา และหน่วยความจำในการค้นหา ขั้นตอนวิธีเกี่ยวกับการค้นหาและการเรียงลำดับ การแก้ปัญหาแบบบรูทฟอร์ซ การแบ่งเข้ายึด ขั้นตอนวิธีการแบบละโมบ การชดเชยกันระหว่างเวลากับเนื้อที่ของการคำนวณ Prerequisite: Have taken CS111 Analysis of running time and complexity of the algorithms, data structures: arrays, linked lists, stacks, trees, hash, graph, binary heap, analysis of running time and memory requirements in searching, algorithms for searching and sorting, algorithm techniques: brute force, divide-and-conquer, greedy algorithms, space and time trade-offs."
+    ],
+    "ground_truth": "วิชาที่สอนเรื่อง sorting และ searching คือ คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี (CS216 Data Structures and Algorithms)",
+    "retrieved_chunk_indices": [
+      3
+    ]
+  },
+  {
+    "question": "ถ้าอยากเรียนเรื่อง recursive ต้องลงวิชาอะไร?",
+    "answer": "ถ้าอยากเรียนเรื่อง recursive ต้องลงวิชา คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ (CS102 Problem Solving Basics and Computer Programming) เนื่องจากวิชานี้มีเนื้อหาเกี่ยวกับฟังก์ชันเวียนเกิด (recursive functions) ซึ่งเป็นพื้นฐานสำคัญในการเข้าใจและใช้งาน recursion ได้อย่างถูกต้องและมีประสิทธิภาพ",
+    "contexts": [
+      "คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ ( CS102 Problem Solving Basics and Computer Programming ) การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging."
+    ],
+    "ground_truth": "วิชาที่สอนเรื่อง recursive (ฟังก์ชันเวียนเกิด) คือ คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ (CS102 Problem Solving Basics and Computer Programming)",
+    "retrieved_chunk_indices": [
+      1
+    ]
+  }
+]

@@ -1,26 +1,20 @@
-from search import search_doc_with_id 
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from rag.search import search_doc_with_id 
 
 # Pipeline: 
 # Query → search_doc_with_id → ได้ docs → เทียบกับ ground truth → คำนวณ metrics
 
-test_data = [ 
-    { 
-        "query": "วิชา CS102 เรียนอะไร", 
-        "relevant_ids": [1] 
-    }, 
-    { 
-        "query": "อยากเรียนเรื่อง OOP ต้องลงวิชาอะไร?",
-        "relevant_ids": [2] 
-    }, 
-    { 
-        "query": "วิชาไหนสอนเรื่อง sorting และ searching?", 
-        "relevant_ids": [3] 
-    }, 
-    { 
-        "query": "วิชาไหนเกี่ยวกับ algorithm บ้าง?", 
-        "relevant_ids": [3] 
-    }, 
-] 
+test_data = [
+    {"query": "วิชา CS216 เรียนอะไร", "relevant_ids": [9]},
+    {"query": "คพ.102 สอนเรื่องอะไร", "relevant_ids": [2]},
+    {"query": "วิชาที่สอนเรื่องฐานข้อมูล", "relevant_ids": [22, 55]},
+    {"query": "วิชาที่สอนเรื่อง cloud", "relevant_ids": [15, 59]},
+    {"query": "วิชาไหนสอนเรื่อง testing บ้าง", "relevant_ids": [25]},
+    {"query": "วิชาที่เกี่ยวกับการพัฒนา mobile app", "relevant_ids": [28, 62]},
+    {"query": "อยากเรียนเรื่อง OOP ต้องลงวิชาอะไร", "relevant_ids": [5]},
+    {"query": "วิชาไหนสอนเรื่อง sorting และ searching", "relevant_ids": [9]},
+]
 
 
 # -------------------------

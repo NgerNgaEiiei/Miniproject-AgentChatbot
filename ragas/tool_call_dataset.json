@@ -1,0 +1,50 @@
+[
+  {
+    "question": "CS 271 มีกี่หน่วยกิต?",
+    "expected_action": {
+      "action": "get_course_detail",
+      "input": {"course_id": "CS 271"}
+    },
+    "note": "ถามรายละเอียดวิชาเฉพาะ → ใช้ get_course_detail"
+  },
+  {
+    "question": "วิชา major required ของ CIS มีกี่วิชา?",
+    "expected_action": {
+      "action": "count_courses",
+      "input": {"major": "CIS", "course_type": "major_required"}
+    },
+    "note": "ถามจำนวน → ใช้ count_courses"
+  },
+  {
+    "question": "ลงวิชา CS 372 ได้ไหม ถ้าผ่าน CS 251 มาแล้ว?",
+    "expected_action": {
+      "action": "check_prerequisite",
+      "input": {"course_id": "CS 372", "completed_courses": ["CS 251"]}
+    },
+    "note": "ถามว่าลงได้ไหม → ใช้ check_prerequisite"
+  },
+  {
+    "question": "ต้องเรียนอะไรก่อนถึงจะเรียน CS 372 ได้?",
+    "expected_action": {
+      "action": "get_learning_path",
+      "input": {"target_course_id": "CS 372"}
+    },
+    "note": "ถามเส้นทางการเรียน → ใช้ get_learning_path"
+  },
+  {
+    "question": "ปี 2 ของ CIS เรียนอะไรบ้าง?",
+    "expected_action": {
+      "action": "get_study_plan",
+      "input": {"major": "CIS", "year": 2}
+    },
+    "note": "ถามแผนการศึกษา → ใช้ get_study_plan"
+  },
+  {
+    "question": "วิชาไหนสอนเรื่อง OOP?",
+    "expected_action": {
+      "action": "none",
+      "input": {}
+    },
+    "note": "ถามเชิงเนื้อหา (ไม่รู้รหัสวิชา) → ใช้ RAG (action=none)"
+  }
+]
